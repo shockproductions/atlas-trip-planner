@@ -1,0 +1,14 @@
+node_modules/
+dist/
+dist-electron/
+.env
+.env.local
+.env.*.local
+*.log
+.DS_Store
+android/
+ios/
+.vite/
+coverage/
+screenshots/
+*.tsbuildinfo

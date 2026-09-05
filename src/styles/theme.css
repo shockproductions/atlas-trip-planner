@@ -1,0 +1,225 @@
+/* ------------------------------------------------------------------ *
+ * Atlas design tokens.
+ * A warm-neutral paper ground, one deep teal accent, and a muted
+ * category palette. Colour is used to classify, never to decorate.
+ * ------------------------------------------------------------------ */
+
+:root {
+  color-scheme: light;
+
+  --bg: #f6f5f2;
+  --bg-deep: #eeece7;
+  --surface: #ffffff;
+  --surface-2: #f4f3ef;
+  --surface-3: #ebe9e3;
+  --overlay: rgb(24 26 28 / 38%);
+
+  --border: #e3e1da;
+  --border-strong: #d0cdc4;
+  --border-focus: #146b60;
+
+  --ink: #191c1f;
+  --ink-2: #4c525a;
+  --ink-3: #7b818a;
+  --ink-4: #a4a9b0;
+
+  --accent: #146b60;
+  --accent-hover: #10564d;
+  --accent-ink: #ffffff;
+  --accent-soft: #e2efec;
+  --accent-line: #a9d2c9;
+
+  --warn: #a2620a;
+  --warn-soft: #fbf1de;
+  --warn-line: #ecd7a8;
+  --danger: #a92f22;
+  --danger-soft: #fbeae7;
+  --ok: #2f6d3f;
+
+  /* Category tones — desaturated so a dense day still reads calmly. */
+  --cat-transit: #3f6ea8;
+  --cat-stay: #7a5aa6;
+  --cat-food: #b5652c;
+  --cat-water: #2c8ba0;
+  --cat-nature: #46803f;
+  --cat-culture: #a04a6b;
+  --cat-shopping: #8a6a2f;
+  --cat-event: #a1483c;
+  --cat-active: #2f7d70;
+  --cat-free: #8b9099;
+  --cat-neutral: #6c727a;
+
+  --radius-sm: 5px;
+  --radius: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+
+  --shadow-sm: 0 1px 2px rgb(20 22 26 / 6%), 0 1px 1px rgb(20 22 26 / 4%);
+  --shadow: 0 2px 6px rgb(20 22 26 / 7%), 0 1px 2px rgb(20 22 26 / 5%);
+  --shadow-lg: 0 18px 40px -18px rgb(20 22 26 / 28%), 0 2px 8px rgb(20 22 26 / 8%);
+  --shadow-pop: 0 24px 60px -20px rgb(20 22 26 / 34%);
+
+  --font: ui-sans-serif, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "Cascadia Mono", "Roboto Mono", Menlo, monospace;
+
+  --nav-w: 216px;
+  --header-h: 52px;
+  --tabbar-h: 58px;
+
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+
+  --bg: #0e1013;
+  --bg-deep: #090b0d;
+  --surface: #16191d;
+  --surface-2: #1c2026;
+  --surface-3: #242931;
+  --overlay: rgb(4 6 8 / 62%);
+
+  --border: #262b32;
+  --border-strong: #363d46;
+  --border-focus: #4fc4b0;
+
+  --ink: #e9ecef;
+  --ink-2: #b0b7bf;
+  --ink-3: #858d96;
+  --ink-4: #656c75;
+
+  --accent: #4fc4b0;
+  --accent-hover: #66d3c0;
+  --accent-ink: #06231f;
+  --accent-soft: #14312c;
+  --accent-line: #235349;
+
+  --warn: #e0ab5f;
+  --warn-soft: #2c2418;
+  --warn-line: #4a3c22;
+  --danger: #e58274;
+  --danger-soft: #2e1c19;
+  --ok: #77bb87;
+
+  --cat-transit: #7ba6dd;
+  --cat-stay: #b193d8;
+  --cat-food: #e0996a;
+  --cat-water: #62bdd0;
+  --cat-nature: #86bd7e;
+  --cat-culture: #d68aa6;
+  --cat-shopping: #cfa864;
+  --cat-event: #dd8b80;
+  --cat-active: #6cc3b3;
+  --cat-free: #838a93;
+  --cat-neutral: #99a0a8;
+
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 40%);
+  --shadow: 0 3px 8px rgb(0 0 0 / 45%);
+  --shadow-lg: 0 20px 44px -20px rgb(0 0 0 / 70%), 0 2px 8px rgb(0 0 0 / 40%);
+  --shadow-pop: 0 26px 64px -22px rgb(0 0 0 / 78%);
+}
+
+/* ---------------------------------------------------------- reset */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font);
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overscroll-behavior: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+figure {
+  margin: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+:focus-visible {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+::selection {
+  background: var(--accent-soft);
+  color: var(--ink);
+}
+
+/* Slim scrollbars so dense panels stay calm. */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-strong) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border-radius: 99px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
