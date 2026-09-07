@@ -103,7 +103,7 @@
       "tripId": "trip_sydney_2026",
       "date": "2026-10-07",
       "locationLabel": "Sydney",
-      "headline": "Taronga, then a harbour beach at Balmoral",
+      "headline": "Taronga, then a sliding and drifting afterwards",
       "notes": "Unhurried on purpose, after two long day trips. Balmoral is a netted harbour beach - flat water, good for a small child. Endeavour Tap Rooms is back in The Rocks, so it is marked optional."
     },
     "day_2026-10-08": {
@@ -1712,13 +1712,11 @@
     "act_balmoral": {
       "id": "act_balmoral",
       "tripId": "trip_sydney_2026",
-      "dayId": "day_2026-10-07",
-      "order": 820,
+      "dayId": null,
+      "order": 1210,
       "title": "Balmoral Beach",
       "category": "beach",
-      "timePrecision": "exact",
-      "startTime": "15:45",
-      "endTime": "17:00",
+      "timePrecision": "unscheduled",
       "durationMin": 75,
       "locationId": "loc_balmoral",
       "notes": "Harbour beach with a netted swimming enclosure - flat water, no surf.",
@@ -1727,37 +1725,16 @@
       "status": "planned",
       "optional": false,
       "createdAt": "2026-09-05T00:00:00.000Z",
-      "updatedAt": "2026-09-05T00:00:00.000Z"
-    },
-    "act_balmoral_play": {
-      "id": "act_balmoral_play",
-      "tripId": "trip_sydney_2026",
-      "dayId": "day_2026-10-07",
-      "order": 830,
-      "title": "Balmoral playground",
-      "category": "activity",
-      "timePrecision": "exact",
-      "startTime": "17:15",
-      "endTime": "18:00",
-      "durationMin": 45,
-      "locationId": "loc_balmoral_play",
-      "links": [],
-      "attachments": [],
-      "status": "planned",
-      "optional": false,
-      "createdAt": "2026-09-05T00:00:00.000Z",
-      "updatedAt": "2026-09-05T00:00:00.000Z"
+      "updatedAt": "2026-09-07T03:09:56.960Z"
     },
     "act_bathers": {
       "id": "act_bathers",
       "tripId": "trip_sydney_2026",
-      "dayId": "day_2026-10-07",
-      "order": 840,
+      "dayId": null,
+      "order": 1200,
       "title": "Dinner at The Bathers' Pavilion",
       "category": "food",
-      "timePrecision": "exact",
-      "startTime": "18:15",
-      "endTime": "19:45",
+      "timePrecision": "unscheduled",
       "durationMin": 90,
       "locationId": "loc_bathers",
       "bookingId": "bkg_bathers",
@@ -1766,7 +1743,7 @@
       "status": "planned",
       "optional": false,
       "createdAt": "2026-09-05T00:00:00.000Z",
-      "updatedAt": "2026-09-05T00:00:00.000Z"
+      "updatedAt": "2026-09-07T03:09:20.610Z"
     },
     "act_endeavour": {
       "id": "act_endeavour",
@@ -2438,6 +2415,27 @@
       "optional": false,
       "createdAt": "2026-09-05T00:00:00.000Z",
       "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_5ea1ecaf64d2": {
+      "id": "act_5ea1ecaf64d2",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-07",
+      "order": 860,
+      "title": "Drift Event",
+      "description": "Drift event\nNic to get driver pass\n+ passenger pass",
+      "category": "activity",
+      "timePrecision": "exact",
+      "startTime": "16:00",
+      "endTime": "20:00",
+      "durationMin": 240,
+      "locationId": "loc_4fb4f20d16e4",
+      "notes": "350Z + Jeep for supplies + 370Z for seat if needed\n",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-07T03:07:36.303Z",
+      "updatedAt": "2026-09-07T03:13:49.751Z"
     }
   },
   "locations": {
@@ -3747,6 +3745,13 @@
       "lat": -33.8646,
       "lng": 151.2074,
       "address": "Level 47, Australia Square, 264 George St"
+    },
+    "loc_4fb4f20d16e4": {
+      "tripId": "trip_sydney_2026",
+      "name": "Sydney Dragway",
+      "id": "loc_4fb4f20d16e4",
+      "lat": -33.811277,
+      "lng": 150.870271
     }
   },
   "accommodations": {
