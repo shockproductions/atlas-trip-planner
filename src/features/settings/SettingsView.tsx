@@ -1,6 +1,8 @@
 import { useRef, useState } from 'react'
 import type { Trip, TripData } from '@/domain/types'
 import { COLLECTIONS } from '@/domain/types'
+import { tripSubset } from '@/domain/selectors'
+import { REPO, proposeUrl, publishedFileUrl, pullRequestsUrl } from '@/data/published'
 import { useTripStore } from '@/store/tripStore'
 import { useUiStore, type ThemeSetting } from '@/store/uiStore'
 import { getTileConfig } from '@/platform/mapConfig'
@@ -22,19 +24,41 @@ export function SettingsView({ trip }: { trip?: Trip }) {
   const setWarningsMuted = useUiStore((s) => s.setWarningsMuted)
   const [confirmReset, setConfirmReset] = useState(false)
   const [importMessage, setImportMessage] = useState<string | null>(null)
+  const [proposalStarted, setProposalStarted] = useState(false)
+  const [confirmAdopt, setConfirmAdopt] = useState(false)
+  const publishedUpdate = useTripStore((s) => s.publishedUpdate)
+  const checkForUpdate = useTripStore((s) => s.checkForUpdate)
+  const adoptPublished = useTripStore((s) => s.adoptPublished)
+  const [checking, setChecking] = useState(false)
+  const [updateMessage, setUpdateMessage] = useState<string | null>(null)
   const fileRef = useRef<HTMLInputElement>(null)
   const tiles = getTileConfig()
 
-  function exportJson() {
-    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' })
+  function download(payload: TripData, filename: string) {
+    const blob = new Blob([JSON.stringify(payload, null, 2) + '\n'], { type: 'application/json' })
     const url = URL.createObjectURL(blob)
     const a = document.createElement('a')
     a.href = url
-    a.download = `atlas-trips-${new Date().toISOString().slice(0, 10)}.json`
+    a.download = filename
     document.body.appendChild(a)
     a.click()
     a.remove()
     setTimeout(() => URL.revokeObjectURL(url), 1000)
+  }
+
+  function exportJson() {
+    download(data, `atlas-trips-${new Date().toISOString().slice(0, 10)}.json`)
+  }
+
+  /**
+   * Step one of proposing a change: hand over exactly the file the repository
+   * holds — this trip alone, in the canonical shape — so the pull request is a
+   * readable diff rather than a whole-library dump.
+   */
+  function downloadProposal() {
+    if (!trip) return
+    download(tripSubset(data, trip.id), 'sydney-2026.json')
+    setProposalStarted(true)
   }
 
   async function importJson(file: File) {
@@ -206,6 +230,95 @@ export function SettingsView({ trip }: { trip?: Trip }) {
 
         <section className="panel-card">
           <div className="panel-card__head">
+            <Icon name="bulb" size={14} />
+            <span className="panel-card__title">Shared plan</span>
+          </div>
+          <div className="panel-card__body stack">
+            <div className="muted" style={{ fontSize: 12.5, lineHeight: 1.6 }}>
+              The itinerary is published from <code>{REPO}</code>. Your edits stay on this device
+              until you propose them, and a proposal only reaches the published plan once the owner
+              accepts it.
+            </div>
+
+            {publishedUpdate ? (
+              <div className="warn warn--info">
+                <span className="warn__icon">
+                  <Icon name="bulb" size={14} />
+                </span>
+                <span>
+                  A newer published plan is available. Adopting it replaces the copy on this device —
+                  export first if you have unproposed edits.
+                </span>
+              </div>
+            ) : null}
+
+            <div className="row gap-sm row--wrap">
+              <button className="btn btn--primary" onClick={downloadProposal} disabled={!trip}>
+                <Icon name="external" size={14} /> Propose changes
+              </button>
+              <button
+                className="btn"
+                disabled={checking}
+                onClick={async () => {
+                  setChecking(true)
+                  setUpdateMessage(null)
+                  await checkForUpdate()
+                  setChecking(false)
+                  setUpdateMessage(
+                    useTripStore.getState().publishedUpdate
+                      ? null
+                      : 'This device matches the published plan.',
+                  )
+                }}
+              >
+                <Icon name="undo" size={14} /> {checking ? 'Checking…' : 'Check for updates'}
+              </button>
+              {publishedUpdate ? (
+                <button className="btn btn--primary" onClick={() => setConfirmAdopt(true)}>
+                  <Icon name="plus" size={14} /> Adopt published plan
+                </button>
+              ) : null}
+              <div className="topbar__spacer" />
+              <a className="btn" href={pullRequestsUrl()} target="_blank" rel="noreferrer noopener">
+                <Icon name="external" size={14} /> Open proposals
+              </a>
+            </div>
+
+            {proposalStarted ? (
+              <div className="warn warn--info">
+                <span className="warn__icon">
+                  <Icon name="bulb" size={14} />
+                </span>
+                <span>
+                  <strong>sydney-2026.json</strong> has been saved to this device. Now{' '}
+                  <a href={proposeUrl()} target="_blank" rel="noreferrer noopener">
+                    open GitHub
+                  </a>{' '}
+                  and drop that file in. GitHub will offer to “create a new branch and start a pull
+                  request” — do that, and the owner gets your change to review. Nothing is published
+                  until they merge it.
+                </span>
+              </div>
+            ) : null}
+
+            {updateMessage ? (
+              <div className="muted" style={{ fontSize: 12 }}>
+                {updateMessage}
+              </div>
+            ) : null}
+
+            <div className="muted" style={{ fontSize: 11.5 }}>
+              The published file lives at{' '}
+              <a href={publishedFileUrl()} target="_blank" rel="noreferrer noopener">
+                public/trips/sydney-2026.json
+              </a>
+              . Every accepted proposal is a commit, so the full history is on GitHub.
+            </div>
+          </div>
+        </section>
+
+        <section className="panel-card">
+          <div className="panel-card__head">
             <Icon name="layers" size={14} />
             <span className="panel-card__title">Data</span>
           </div>
@@ -286,6 +399,19 @@ export function SettingsView({ trip }: { trip?: Trip }) {
           onConfirm={() => {
             setConfirmReset(false)
             void resetToDemo()
+          }}
+        />
+      ) : null}
+
+      {confirmAdopt ? (
+        <ConfirmDialog
+          title="Adopt the published plan"
+          message="This replaces the itinerary on this device with the one published from the repository. Any edits you have not proposed yet will be lost — export them first if you want to keep them."
+          confirmLabel="Adopt published"
+          onCancel={() => setConfirmAdopt(false)}
+          onConfirm={() => {
+            setConfirmAdopt(false)
+            void adoptPublished()
           }}
         />
       ) : null}

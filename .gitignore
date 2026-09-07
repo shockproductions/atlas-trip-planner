@@ -12,3 +12,10 @@ ios/
 coverage/
 screenshots/
 *.tsbuildinfo
+
+# Emitted JS shadowing the TypeScript sources. `npm run typecheck` must never
+# produce these (the tsconfigs set noEmit); if they reappear, the script has
+# regressed — Vite resolves .js before .ts and would silently serve stale code.
+/vite.config.js
+/capacitor.config.js
+src/**/*.js

@@ -7,6 +7,7 @@ import type {
   Location,
   TripData,
 } from './types'
+import { emptyData } from './types'
 import { compareActivities, endMinutes, occupiedMinutes, toMinutes, dateRange } from './time'
 import { categoryMeta } from './categories'
 
@@ -198,4 +199,26 @@ export function computeTripStats(data: TripData, tripId: ID): TripStats {
     optionalCount: scheduled.filter((a) => a.optional).length,
     completedCount: scheduled.filter((a) => a.status === 'completed').length,
   }
+}
+
+/* ------------------------------------------------------------- Subsets */
+
+/**
+ * Everything belonging to one trip, in the same normalised shape.
+ *
+ * This is what gets published and what a proposal is diffed against, so it
+ * must be exactly one trip: an export of the whole library would make every
+ * pull request unreadable.
+ */
+export function tripSubset(data: TripData, tripId: ID): TripData {
+  const out = emptyData()
+  const trip = data.trips[tripId]
+  if (!trip) return out
+  out.trips[tripId] = trip
+  for (const name of ['days', 'activities', 'locations', 'accommodations', 'transports', 'bookings'] as const) {
+    const rows = data[name] as Record<ID, { id: ID; tripId: ID }>
+    const target = out[name] as Record<ID, unknown>
+    for (const row of Object.values(rows)) if (row.tripId === tripId) target[row.id] = row
+  }
+  return out
 }

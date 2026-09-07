@@ -9,7 +9,7 @@
  * Not used by the Electron or Capacitor builds, which load from local files.
  */
 
-const SHELL = 'atlas-shell-v1'
+const SHELL = 'atlas-shell-v2'
 const TILES = 'atlas-tiles-v1'
 const TILE_LIMIT = 600
 
@@ -48,6 +48,24 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(request.url)
 
   if (url.origin === self.location.origin) {
+    // The published itinerary must never be served stale: it is how a merged
+    // proposal reaches everyone. Network first, cache only as an offline
+    // fallback — the opposite of the rule for immutable build assets below.
+    if (/\/trips\/[^/]+\.json$/.test(url.pathname)) {
+      event.respondWith(
+        fetch(request)
+          .then((response) => {
+            if (response.ok) {
+              const copy = response.clone()
+              void caches.open(SHELL).then((c) => c.put(request, copy))
+            }
+            return response
+          })
+          .catch(() => caches.match(request).then((hit) => hit ?? Response.error())),
+      )
+      return
+    }
+
     if (request.mode === 'navigate') {
       // Fresh code when online, the cached shell when not.
       event.respondWith(
