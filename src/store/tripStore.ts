@@ -20,6 +20,7 @@ import { dateRange, daysBetween } from '@/domain/time'
 import { activitiesForDay, ideasForTrip, listDays } from '@/domain/selectors'
 import { clearAll, emptyIdSets, loadAll, persist, readSetting, writeSetting } from '@/data/db'
 import { buildDemoTrip } from '@/data/demo'
+import { ADOPTED_REVISION_KEY, fetchPublishedTrip } from '@/data/published'
 import { broadcastData, onRemoteData } from '@/data/sync'
 
 const HISTORY_LIMIT = 80
@@ -40,6 +41,15 @@ export interface TripState {
 
   init: () => Promise<void>
   resetToDemo: () => Promise<void>
+  /**
+   * Revision of the published plan that differs from the one already adopted,
+   * or null when this device is up to date. Set by `checkForUpdate`.
+   */
+  publishedUpdate: string | null
+  /** Ask the site whether the published plan has moved on. */
+  checkForUpdate: () => Promise<void>
+  /** Replace the local copy with the published plan. Destructive, and says so. */
+  adoptPublished: () => Promise<boolean>
 
   setActiveTrip: (tripId: ID) => void
   createTrip: (input: NewTripInput) => ID
@@ -179,11 +189,18 @@ export const useTripStore = create<TripState>((set, get) => {
     async init() {
       let data = await loadAll()
       if (Object.keys(data.trips).length === 0) {
-        data = buildDemoTrip()
-        persistedIds = await persist(data, emptyIdSets())
-      } else {
-        persistedIds = await persist(data, emptyIdSets())
+        // First run: seed from the published plan so every device opens on the
+        // same itinerary. The bundled demo is the fallback when there is no
+        // published file to fetch (offline, Electron, a fork without one).
+        const published = await fetchPublishedTrip()
+        if (published) {
+          data = published.data
+          writeSetting(ADOPTED_REVISION_KEY, published.revision)
+        } else {
+          data = buildDemoTrip()
+        }
       }
+      persistedIds = await persist(data, emptyIdSets())
       const stored = readSetting<ID | null>(ACTIVE_TRIP_KEY, null)
       const activeTripId =
         stored && data.trips[stored] ? stored : (Object.keys(data.trips)[0] ?? null)
@@ -194,6 +211,37 @@ export const useTripStore = create<TripState>((set, get) => {
         set({ data: remote })
         applyingRemote = false
       })
+
+      void get().checkForUpdate()
+    },
+
+    publishedUpdate: null,
+
+    async checkForUpdate() {
+      const published = await fetchPublishedTrip()
+      if (!published) return
+      const adopted = readSetting<string | null>(ADOPTED_REVISION_KEY, null)
+      set({ publishedUpdate: published.revision === adopted ? null : published.revision })
+    },
+
+    async adoptPublished() {
+      const published = await fetchPublishedTrip()
+      if (!published) return false
+      await clearAll()
+      persistedIds = await persist(published.data, emptyIdSets())
+      const activeTripId = Object.keys(published.data.trips)[0] ?? null
+      writeSetting(ACTIVE_TRIP_KEY, activeTripId)
+      writeSetting(ADOPTED_REVISION_KEY, published.revision)
+      set({
+        data: published.data,
+        activeTripId,
+        past: [],
+        future: [],
+        lastAction: null,
+        publishedUpdate: null,
+      })
+      broadcastData(published.data)
+      return true
     },
 
     async resetToDemo() {

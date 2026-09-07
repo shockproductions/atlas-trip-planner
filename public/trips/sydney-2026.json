@@ -1,0 +1,4015 @@
+{
+  "trips": {
+    "trip_sydney_2026": {
+      "id": "trip_sydney_2026",
+      "name": "Sydney 2026",
+      "startDate": "2026-09-27",
+      "endDate": "2026-10-09",
+      "destinations": [
+        "Sydney",
+        "Hunter Valley",
+        "Blue Mountains"
+      ],
+      "description": "Thirteen days in Sydney with a small child, two birthdays and two day trips. The three big optional excursions - Pebbly Beach, the Royal National Park and the Northern Beaches - sit in Ideas as replacement days rather than additions.",
+      "coverImage": "atlas:sea",
+      "baseCurrency": "AUD",
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    }
+  },
+  "days": {
+    "day_2026-09-27": {
+      "id": "day_2026-09-27",
+      "tripId": "trip_sydney_2026",
+      "date": "2026-09-27",
+      "locationLabel": "Sydney",
+      "headline": "The Rocks - arrival and the harbour",
+      "notes": "Deliberately light. Sunset is about 17:47 (AEST), which is roughly when you want to be on the Glenmore roof. You land on a Sunday, so The Rocks Markets should be running until about 17:00."
+    },
+    "day_2026-09-28": {
+      "id": "day_2026-09-28",
+      "tripId": "trip_sydney_2026",
+      "date": "2026-09-28",
+      "locationLabel": "Sydney",
+      "headline": "Darling Harbour - aquarium, zoo and the waterfront",
+      "notes": "The best walking day of the trip: SEA LIFE to Barangaroo is all within 15 minutes on foot. One Merlin combo ticket covers SEA LIFE, WILD LIFE and the Sydney Tower Eye on Day 3 - buy it once, use it twice."
+    },
+    "day_2026-09-29": {
+      "id": "day_2026-09-29",
+      "tripId": "trip_sydney_2026",
+      "date": "2026-09-29",
+      "locationLabel": "Sydney",
+      "headline": "CBD - shopping and the tower",
+      "notes": "The Sydney Tower Eye entrance is inside Westfield (podium level 5) - same building, no travel between them. The Baxter Inn is a licensed basement bar with no minors: it needs a sitter, or a swap."
+    },
+    "day_2026-09-30": {
+      "id": "day_2026-09-30",
+      "tripId": "trip_sydney_2026",
+      "date": "2026-09-30",
+      "locationLabel": "Sydney",
+      "headline": "Manly - ferry, beach and Shelly",
+      "notes": "Ferry each way from Circular Quay, about 30 minutes, Opal or contactless card - tap on and off. Sit on the right leaving the Quay for the bridge and Opera House. The Manly - Spit Bridge walk is in Ideas rather than here: 10 km is too much with a small child."
+    },
+    "day_2026-10-01": {
+      "id": "day_2026-10-01",
+      "tripId": "trip_sydney_2026",
+      "date": "2026-10-01",
+      "locationLabel": "Sydney",
+      "headline": "Hyde Park and the Domain - museum, gardens, Aline's birthday",
+      "notes": "Aline's birthday. The afternoon stays light on purpose so the evening is the event. Mrs Macquaries Chair lands close to sunset (about 17:52), which is the reason to go at that hour."
+    },
+    "day_2026-10-02": {
+      "id": "day_2026-10-02",
+      "tripId": "trip_sydney_2026",
+      "date": "2026-10-02",
+      "locationLabel": "Sydney",
+      "headline": "Western Sydney - outlet shopping and kangaroos",
+      "notes": "A car day. Without one: train to Olympic Park for DFO, then the Blacktown line and the 729 bus to Featherdale - allow an extra hour each way. Harts Pub is in The Rocks, not near Chinatown, so it is a detour on the way back rather than a stop before dinner."
+    },
+    "day_2026-10-03": {
+      "id": "day_2026-10-03",
+      "tripId": "trip_sydney_2026",
+      "date": "2026-10-03",
+      "locationLabel": "Sydney",
+      "headline": "Centennial Park, Paddington and the inner west",
+      "notes": "The fullest day on the list, and the checks panel says so. Newtown and Glebe are marked optional: drop them the moment the little one has had enough. Paddington Markets are Saturday-only, 10:00-16:00."
+    },
+    "day_2026-10-04": {
+      "id": "day_2026-10-04",
+      "tripId": "trip_sydney_2026",
+      "date": "2026-10-04",
+      "locationLabel": "Sydney",
+      "headline": "Hunter Valley - wine day",
+      "notes": "Daylight saving starts at 02:00 this morning - clocks go forward an hour, so an 08:30 departure is yesterday's 07:30. Set alarms accordingly. NSW limit is 0.05: designated driver, or book a tour. Everything below is in Pokolbin, about ten minutes apart."
+    },
+    "day_2026-10-05": {
+      "id": "day_2026-10-05",
+      "tripId": "trip_sydney_2026",
+      "date": "2026-10-05",
+      "locationLabel": "Sydney",
+      "headline": "Art Gallery, Paddington and Surry Hills",
+      "notes": "NSW Labour Day - a public holiday. Galleries and pubs open, boutiques often on Sunday hours, public transport on a Sunday timetable. Paddy's Markets are closed Monday and Tuesday: the checks panel flags it, and Day 6 (Friday) or Day 12 (Thursday) are the easy swaps."
+    },
+    "day_2026-10-06": {
+      "id": "day_2026-10-06",
+      "tripId": "trip_sydney_2026",
+      "date": "2026-10-06",
+      "locationLabel": "Sydney",
+      "headline": "Blue Mountains - Echo Point and Scenic World",
+      "notes": "The cold day: roughly 5-14 C at Katoomba and windy at Echo Point, against high teens in the city. Jackets, long trousers, closed shoes. Mountain weather closes the Skyway without notice - Scenic World publishes conditions each morning."
+    },
+    "day_2026-10-07": {
+      "id": "day_2026-10-07",
+      "tripId": "trip_sydney_2026",
+      "date": "2026-10-07",
+      "locationLabel": "Sydney",
+      "headline": "Taronga, then a harbour beach at Balmoral",
+      "notes": "Unhurried on purpose, after two long day trips. Balmoral is a netted harbour beach - flat water, good for a small child. Endeavour Tap Rooms is back in The Rocks, so it is marked optional."
+    },
+    "day_2026-10-08": {
+      "id": "day_2026-10-08",
+      "tripId": "trip_sydney_2026",
+      "date": "2026-10-08",
+      "locationLabel": "Sydney",
+      "headline": "Harbour Bridge, the MCA and Cláudia's birthday",
+      "notes": "Cláudia's birthday: the bridge in the morning, the harbour at night. Sunset about 18:25 (AEDT). The pedestrian path is on the eastern side - stairs up from Cumberland Street in The Rocks. BridgeClimb (minimum age 8) is in Ideas as the alternative to the walk plus Pylon."
+    },
+    "day_2026-10-09": {
+      "id": "day_2026-10-09",
+      "tripId": "trip_sydney_2026",
+      "date": "2026-10-09",
+      "locationLabel": "Sydney",
+      "headline": "Bondi, Watsons Bay, then home",
+      "notes": "This shape only works with a late-evening departure, roughly 22:00 or later. Anything earlier and Watsons Bay has to go: international check-in closes 60-90 minutes before departure and the airport is 30-45 minutes from the city. Sunset about 18:32 (AEDT) over the skyline from The Gap."
+    }
+  },
+  "activities": {
+    "act_arrive": {
+      "id": "act_arrive",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-09-27",
+      "order": 10,
+      "title": "Arrive at Sydney Airport (SYD)",
+      "category": "flight",
+      "timePrecision": "dayPart",
+      "dayPart": "morning",
+      "durationMin": 90,
+      "locationId": "loc_syd",
+      "bookingId": "bkg_flights",
+      "transportId": "trn_arrive",
+      "notes": "Everything on Day 1 assumes a morning landing. If you arrive in the afternoon, keep Circular Quay and the Opera House and drop the rest.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_transfer_in": {
+      "id": "act_transfer_in",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-09-27",
+      "order": 20,
+      "title": "Airport to the city",
+      "category": "transport",
+      "timePrecision": "dayPart",
+      "dayPart": "morning",
+      "durationMin": 45,
+      "transportId": "trn_transfer_in",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_checkin": {
+      "id": "act_checkin",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-09-27",
+      "order": 30,
+      "title": "Check in and drop the bags",
+      "category": "accommodation",
+      "timePrecision": "relative",
+      "anchorNote": "Once you reach the city",
+      "durationMin": 60,
+      "accommodationId": "stay_sydney",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_circular_quay_1": {
+      "id": "act_circular_quay_1",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-09-27",
+      "order": 40,
+      "title": "Circular Quay",
+      "category": "walking",
+      "timePrecision": "exact",
+      "startTime": "14:00",
+      "endTime": "15:00",
+      "durationMin": 60,
+      "locationId": "loc_circular_quay",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_opera_exterior": {
+      "id": "act_opera_exterior",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-09-27",
+      "order": 50,
+      "title": "Sydney Opera House - exterior and photos",
+      "category": "culture",
+      "timePrecision": "exact",
+      "startTime": "15:15",
+      "endTime": "16:15",
+      "durationMin": 60,
+      "locationId": "loc_opera",
+      "notes": "Inside is Day 12. Walk right around to the eastern steps for the shot back at the bridge.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_rocks_walk": {
+      "id": "act_rocks_walk",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-09-27",
+      "order": 60,
+      "title": "The Rocks + Dawes Point",
+      "category": "walking",
+      "timePrecision": "exact",
+      "startTime": "16:30",
+      "endTime": "17:45",
+      "durationMin": 75,
+      "locationId": "loc_the_rocks",
+      "notes": "The Rocks Markets run Saturday and Sunday on George St until about 17:00 - you land on a Sunday, so they should be on. Dawes Point sits directly under the bridge.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_glenmore": {
+      "id": "act_glenmore",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-09-27",
+      "order": 70,
+      "title": "The Glenmore rooftop",
+      "category": "food",
+      "timePrecision": "exact",
+      "startTime": "18:00",
+      "endTime": "19:00",
+      "durationMin": 60,
+      "locationId": "loc_glenmore",
+      "notes": "Rooftop faces the Opera House. Sunset about 17:47 - get up there before it goes.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_dinner_quay": {
+      "id": "act_dinner_quay",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-09-27",
+      "order": 80,
+      "title": "Dinner around Circular Quay",
+      "category": "food",
+      "timePrecision": "exact",
+      "startTime": "19:15",
+      "endTime": "20:45",
+      "durationMin": 90,
+      "locationId": "loc_circular_quay",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_sealife": {
+      "id": "act_sealife",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-09-28",
+      "order": 90,
+      "title": "SEA LIFE Sydney Aquarium",
+      "category": "activity",
+      "timePrecision": "exact",
+      "startTime": "10:00",
+      "endTime": "12:00",
+      "durationMin": 120,
+      "locationId": "loc_sealife",
+      "bookingId": "bkg_merlin",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_wildlife": {
+      "id": "act_wildlife",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-09-28",
+      "order": 100,
+      "title": "WILD LIFE Sydney Zoo",
+      "category": "activity",
+      "timePrecision": "exact",
+      "startTime": "12:15",
+      "endTime": "13:30",
+      "durationMin": 75,
+      "locationId": "loc_wildlife",
+      "bookingId": "bkg_merlin",
+      "notes": "Next door to the aquarium - same building complex, two minutes between them.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_lunch_cockle": {
+      "id": "act_lunch_cockle",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-09-28",
+      "order": 110,
+      "title": "Lunch - Fratelli Fresh, Cockle Bay",
+      "category": "food",
+      "timePrecision": "exact",
+      "startTime": "13:45",
+      "endTime": "14:45",
+      "durationMin": 60,
+      "locationId": "loc_fratelli",
+      "notes": "Confirm it is still trading before you set your heart on it - the Cockle Bay and Darling Harbour promenade has plenty of alternatives either way.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_darling_quarter": {
+      "id": "act_darling_quarter",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-09-28",
+      "order": 120,
+      "title": "Darling Quarter Playground",
+      "category": "activity",
+      "timePrecision": "exact",
+      "startTime": "15:00",
+      "endTime": "16:00",
+      "durationMin": 60,
+      "locationId": "loc_darling_quarter",
+      "notes": "Water play area - bring a change of clothes and a towel.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_chinese_garden": {
+      "id": "act_chinese_garden",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-09-28",
+      "order": 130,
+      "title": "Chinese Garden of Friendship",
+      "category": "culture",
+      "timePrecision": "exact",
+      "startTime": "16:15",
+      "endTime": "17:00",
+      "durationMin": 45,
+      "locationId": "loc_chinese_garden",
+      "notes": "Small entry fee. Closes at 17:00, so this is the last slot that works.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_barangaroo": {
+      "id": "act_barangaroo",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-09-28",
+      "order": 140,
+      "title": "Barangaroo Reserve",
+      "category": "nature",
+      "timePrecision": "exact",
+      "startTime": "17:30",
+      "endTime": "18:30",
+      "durationMin": 60,
+      "locationId": "loc_barangaroo",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_zephyr": {
+      "id": "act_zephyr",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-09-28",
+      "order": 150,
+      "title": "Zephyr Sky Bar",
+      "category": "food",
+      "timePrecision": "exact",
+      "startTime": "18:45",
+      "endTime": "20:00",
+      "durationMin": 75,
+      "locationId": "loc_zephyr",
+      "notes": "Hotel rooftop bar - check the under-18 policy for the evening before you walk over.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_qvb": {
+      "id": "act_qvb",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-09-29",
+      "order": 160,
+      "title": "Queen Victoria Building",
+      "category": "shopping",
+      "timePrecision": "exact",
+      "startTime": "10:00",
+      "endTime": "11:15",
+      "durationMin": 75,
+      "locationId": "loc_qvb",
+      "notes": "Worth the trip for the building itself - the dome, the tiled floor and the Royal Clock.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_apple_jb": {
+      "id": "act_apple_jb",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-09-29",
+      "order": 170,
+      "title": "Apple Store + JB Hi-Fi",
+      "category": "shopping",
+      "timePrecision": "exact",
+      "startTime": "11:30",
+      "endTime": "12:30",
+      "durationMin": 60,
+      "locationId": "loc_apple",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_grounds_city": {
+      "id": "act_grounds_city",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-09-29",
+      "order": 180,
+      "title": "Lunch - The Grounds of the City",
+      "category": "food",
+      "timePrecision": "exact",
+      "startTime": "12:45",
+      "endTime": "14:00",
+      "durationMin": 75,
+      "locationId": "loc_grounds_city",
+      "notes": "Inside The Galeries. No small-group bookings at lunch - expect a queue at peak.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_westfield": {
+      "id": "act_westfield",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-09-29",
+      "order": 190,
+      "title": "Westfield Sydney",
+      "category": "shopping",
+      "timePrecision": "exact",
+      "startTime": "14:15",
+      "endTime": "16:00",
+      "durationMin": 105,
+      "locationId": "loc_westfield",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_sydney_tower": {
+      "id": "act_sydney_tower",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-09-29",
+      "order": 200,
+      "title": "Sydney Tower Eye",
+      "category": "activity",
+      "timePrecision": "exact",
+      "startTime": "16:15",
+      "endTime": "17:30",
+      "durationMin": 75,
+      "locationId": "loc_sydney_tower",
+      "bookingId": "bkg_merlin",
+      "notes": "Entrance is on podium level 5 of Westfield - you are already in the building. Covered by the same Merlin pass as Day 2.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_baxter": {
+      "id": "act_baxter",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-09-29",
+      "order": 210,
+      "title": "The Baxter Inn",
+      "category": "food",
+      "timePrecision": "exact",
+      "startTime": "18:00",
+      "endTime": "19:30",
+      "durationMin": 90,
+      "locationId": "loc_baxter",
+      "notes": "Unmarked basement whisky bar down a laneway off Clarence St. Licensed, no minors - this one needs a sitter, or swap it for somewhere with a courtyard.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": true,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_dinner_cbd": {
+      "id": "act_dinner_cbd",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-09-29",
+      "order": 220,
+      "title": "Dinner in the CBD",
+      "category": "food",
+      "timePrecision": "flexible",
+      "durationMin": 90,
+      "notes": "Left unscheduled on purpose - see how the shopping runs.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_ferry_manly_out": {
+      "id": "act_ferry_manly_out",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-09-30",
+      "order": 230,
+      "title": "Ferry - Circular Quay to Manly",
+      "category": "transport",
+      "timePrecision": "exact",
+      "startTime": "09:30",
+      "endTime": "10:00",
+      "durationMin": 30,
+      "locationId": "loc_circular_quay",
+      "transportId": "trn_ferry_manly_out",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_corso": {
+      "id": "act_corso",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-09-30",
+      "order": 240,
+      "title": "The Corso",
+      "category": "walking",
+      "timePrecision": "exact",
+      "startTime": "10:15",
+      "endTime": "11:00",
+      "durationMin": 45,
+      "locationId": "loc_corso",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_manly_beach": {
+      "id": "act_manly_beach",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-09-30",
+      "order": 250,
+      "title": "Manly Beach",
+      "category": "beach",
+      "timePrecision": "exact",
+      "startTime": "11:15",
+      "endTime": "12:45",
+      "durationMin": 90,
+      "locationId": "loc_manly_beach",
+      "notes": "Patrolled between the flags. Water is about 18 C in early October.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_wharf_bar": {
+      "id": "act_wharf_bar",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-09-30",
+      "order": 260,
+      "title": "Lunch at The Wharf Bar",
+      "category": "food",
+      "timePrecision": "exact",
+      "startTime": "13:00",
+      "endTime": "14:15",
+      "durationMin": 75,
+      "locationId": "loc_wharf_bar",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_shelly": {
+      "id": "act_shelly",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-09-30",
+      "order": 270,
+      "title": "Shelly Beach",
+      "category": "beach",
+      "timePrecision": "exact",
+      "startTime": "14:30",
+      "endTime": "16:30",
+      "durationMin": 120,
+      "locationId": "loc_shelly",
+      "notes": "Twenty minutes along the promenade from Manly. Sheltered, north-facing and shallow - the better core activity with a small child than the Spit walk.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_snorkel": {
+      "id": "act_snorkel",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-09-30",
+      "order": 280,
+      "title": "Snorkelling at Cabbage Tree Bay",
+      "category": "activity",
+      "timePrecision": "relative",
+      "anchorNote": "While you are at Shelly",
+      "durationMin": 90,
+      "locationId": "loc_shelly",
+      "notes": "Aquatic reserve - gear hire on the Corso. Water around 18 C, so a wetsuit unless someone is hardy.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": true,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_four_pines": {
+      "id": "act_four_pines",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-09-30",
+      "order": 290,
+      "title": "4 Pines Brewing Co",
+      "category": "food",
+      "timePrecision": "exact",
+      "startTime": "16:45",
+      "endTime": "17:30",
+      "durationMin": 45,
+      "locationId": "loc_four_pines",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_ferry_manly_back": {
+      "id": "act_ferry_manly_back",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-09-30",
+      "order": 300,
+      "title": "Ferry - Manly to Circular Quay",
+      "category": "transport",
+      "timePrecision": "exact",
+      "startTime": "17:45",
+      "endTime": "18:15",
+      "durationMin": 30,
+      "locationId": "loc_manly_wharf",
+      "transportId": "trn_ferry_manly_back",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_hero": {
+      "id": "act_hero",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-09-30",
+      "order": 310,
+      "title": "Hero of Waterloo",
+      "category": "food",
+      "timePrecision": "exact",
+      "startTime": "18:30",
+      "endTime": "19:30",
+      "durationMin": 60,
+      "locationId": "loc_hero",
+      "notes": "One of the oldest pubs in Sydney. Small and old - check the minors policy before you commit.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": true,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_aus_museum": {
+      "id": "act_aus_museum",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-01",
+      "order": 320,
+      "title": "Australian Museum",
+      "category": "museum",
+      "timePrecision": "exact",
+      "startTime": "10:00",
+      "endTime": "11:45",
+      "durationMin": 105,
+      "locationId": "loc_aus_museum",
+      "notes": "General entry is free; special exhibitions are ticketed.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_burra": {
+      "id": "act_burra",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-01",
+      "order": 330,
+      "title": "Burra children's space",
+      "category": "activity",
+      "timePrecision": "exact",
+      "startTime": "11:45",
+      "endTime": "12:30",
+      "durationMin": 45,
+      "locationId": "loc_aus_museum",
+      "notes": "Inside the museum - free, timed sessions at busy periods.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_lunch_hyde": {
+      "id": "act_lunch_hyde",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-01",
+      "order": 340,
+      "title": "Lunch near Hyde Park",
+      "category": "food",
+      "timePrecision": "exact",
+      "startTime": "12:45",
+      "endTime": "13:45",
+      "durationMin": 60,
+      "locationId": "loc_hyde_park",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_st_marys": {
+      "id": "act_st_marys",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-01",
+      "order": 350,
+      "title": "St Mary's Cathedral",
+      "category": "culture",
+      "timePrecision": "exact",
+      "startTime": "14:00",
+      "endTime": "14:45",
+      "durationMin": 45,
+      "locationId": "loc_st_marys",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_hyde_playground": {
+      "id": "act_hyde_playground",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-01",
+      "order": 360,
+      "title": "Hyde Park playground",
+      "category": "activity",
+      "timePrecision": "exact",
+      "startTime": "15:00",
+      "endTime": "16:00",
+      "durationMin": 60,
+      "locationId": "loc_hyde_playground",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_botanic": {
+      "id": "act_botanic",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-01",
+      "order": 370,
+      "title": "Royal Botanic Garden",
+      "category": "nature",
+      "timePrecision": "exact",
+      "startTime": "16:15",
+      "endTime": "17:30",
+      "durationMin": 75,
+      "locationId": "loc_botanic",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_mrs_macquarie": {
+      "id": "act_mrs_macquarie",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-01",
+      "order": 380,
+      "title": "Mrs Macquarie's Chair",
+      "category": "nature",
+      "timePrecision": "exact",
+      "startTime": "17:45",
+      "endTime": "18:30",
+      "durationMin": 45,
+      "locationId": "loc_mrs_macquarie",
+      "notes": "The postcard angle with the Opera House and bridge in one frame. Sunset about 17:52.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_aline_birthday": {
+      "id": "act_aline_birthday",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-01",
+      "order": 390,
+      "title": "Aline's birthday dinner - Aria",
+      "category": "event",
+      "timePrecision": "exact",
+      "startTime": "19:30",
+      "endTime": "22:00",
+      "durationMin": 150,
+      "locationId": "loc_aria",
+      "bookingId": "bkg_aria",
+      "notes": "The point of the day. Alternatives sit in Ideas if Aria does not work out.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_drive_dfo": {
+      "id": "act_drive_dfo",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-02",
+      "order": 400,
+      "title": "Drive to DFO Homebush",
+      "category": "driving",
+      "timePrecision": "exact",
+      "startTime": "09:15",
+      "endTime": "10:00",
+      "durationMin": 45,
+      "transportId": "trn_drive_dfo",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_dfo": {
+      "id": "act_dfo",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-02",
+      "order": 410,
+      "title": "DFO Homebush",
+      "category": "shopping",
+      "timePrecision": "exact",
+      "startTime": "10:15",
+      "endTime": "12:30",
+      "durationMin": 135,
+      "locationId": "loc_dfo",
+      "notes": "The long shopping session of the trip - outlet prices, so leave suitcase room.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_dfo_lunch": {
+      "id": "act_dfo_lunch",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-02",
+      "order": 420,
+      "title": "Lunch at DFO",
+      "category": "food",
+      "timePrecision": "exact",
+      "startTime": "12:30",
+      "endTime": "13:15",
+      "durationMin": 45,
+      "locationId": "loc_dfo",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_drive_featherdale": {
+      "id": "act_drive_featherdale",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-02",
+      "order": 430,
+      "title": "Drive to Featherdale",
+      "category": "driving",
+      "timePrecision": "exact",
+      "startTime": "13:30",
+      "endTime": "14:15",
+      "durationMin": 45,
+      "transportId": "trn_drive_featherdale",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_featherdale": {
+      "id": "act_featherdale",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-02",
+      "order": 440,
+      "title": "Featherdale Wildlife Park",
+      "category": "nature",
+      "timePrecision": "exact",
+      "startTime": "14:30",
+      "endTime": "16:15",
+      "durationMin": 105,
+      "locationId": "loc_featherdale",
+      "bookingId": "bkg_featherdale",
+      "notes": "Hand-feeding kangaroos and wallabies, koalas up close. Last entry is about an hour before close.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_drive_back_city": {
+      "id": "act_drive_back_city",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-02",
+      "order": 450,
+      "title": "Drive back to the city",
+      "category": "driving",
+      "timePrecision": "exact",
+      "startTime": "16:30",
+      "endTime": "17:30",
+      "durationMin": 60,
+      "transportId": "trn_drive_back",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_harts": {
+      "id": "act_harts",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-02",
+      "order": 460,
+      "title": "Harts Pub",
+      "category": "food",
+      "timePrecision": "exact",
+      "startTime": "17:45",
+      "endTime": "18:45",
+      "durationMin": 60,
+      "locationId": "loc_harts",
+      "notes": "Harts is in The Rocks, a fair way from Chinatown. Keep it only if you want the detour - otherwise head straight to Haymarket.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": true,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_chinatown_dinner": {
+      "id": "act_chinatown_dinner",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-02",
+      "order": 470,
+      "title": "Malaysian dinner in Chinatown",
+      "category": "food",
+      "timePrecision": "exact",
+      "startTime": "19:15",
+      "endTime": "20:45",
+      "durationMin": 90,
+      "locationId": "loc_chinatown",
+      "notes": "Mamak on Goulburn St queues from about 18:00 and takes no bookings. Ho Jiak and the Dixon St food courts are the fallbacks.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_centennial": {
+      "id": "act_centennial",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-03",
+      "order": 480,
+      "title": "Centennial Parklands",
+      "category": "nature",
+      "timePrecision": "exact",
+      "startTime": "09:30",
+      "endTime": "10:45",
+      "durationMin": 75,
+      "locationId": "loc_centennial",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_wild_play": {
+      "id": "act_wild_play",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-03",
+      "order": 490,
+      "title": "Ian Potter Children's WILD PLAY Garden",
+      "category": "activity",
+      "timePrecision": "exact",
+      "startTime": "11:00",
+      "endTime": "12:30",
+      "durationMin": 90,
+      "locationId": "loc_wild_play",
+      "notes": "Free. Water play, a bamboo forest and a dry creek bed - bring spare clothes.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_homestead": {
+      "id": "act_homestead",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-03",
+      "order": 500,
+      "title": "Lunch - Centennial Park Homestead",
+      "category": "food",
+      "timePrecision": "exact",
+      "startTime": "12:45",
+      "endTime": "13:45",
+      "durationMin": 60,
+      "locationId": "loc_homestead",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_quadricycle": {
+      "id": "act_quadricycle",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-03",
+      "order": 510,
+      "title": "Family quadricycle",
+      "category": "activity",
+      "timePrecision": "relative",
+      "anchorNote": "If everyone still has energy",
+      "durationMin": 45,
+      "locationId": "loc_centennial",
+      "notes": "Hire is inside the park near the Cafe. Four-seaters with a child seat.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": true,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_paddington": {
+      "id": "act_paddington",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-03",
+      "order": 520,
+      "title": "Paddington - Oxford St and the terraces",
+      "category": "walking",
+      "timePrecision": "exact",
+      "startTime": "14:00",
+      "endTime": "15:00",
+      "durationMin": 60,
+      "locationId": "loc_paddington",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_paddington_markets": {
+      "id": "act_paddington_markets",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-03",
+      "order": 530,
+      "title": "Paddington Markets",
+      "category": "shopping",
+      "timePrecision": "exact",
+      "startTime": "15:15",
+      "endTime": "16:00",
+      "durationMin": 45,
+      "locationId": "loc_paddington_markets",
+      "notes": "Saturdays only, 10:00-16:00 - this is the one Saturday of the trip that lands here.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_surry_hills_1": {
+      "id": "act_surry_hills_1",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-03",
+      "order": 540,
+      "title": "Surry Hills - cafes and boutiques",
+      "category": "walking",
+      "timePrecision": "exact",
+      "startTime": "16:15",
+      "endTime": "17:30",
+      "durationMin": 75,
+      "locationId": "loc_surry_hills",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_newtown_1": {
+      "id": "act_newtown_1",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-03",
+      "order": 550,
+      "title": "Newtown - King St and the street art",
+      "category": "walking",
+      "timePrecision": "exact",
+      "startTime": "18:00",
+      "endTime": "19:30",
+      "durationMin": 90,
+      "locationId": "loc_newtown",
+      "notes": "The inner-west leg. Drop it without guilt if the day has already been long.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": true,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_glebe": {
+      "id": "act_glebe",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-03",
+      "order": 560,
+      "title": "Glebe Point Road",
+      "category": "walking",
+      "timePrecision": "exact",
+      "startTime": "19:45",
+      "endTime": "20:45",
+      "durationMin": 60,
+      "locationId": "loc_glebe",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": true,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_drive_hunter": {
+      "id": "act_drive_hunter",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-04",
+      "order": 570,
+      "title": "Drive to the Hunter Valley",
+      "category": "driving",
+      "timePrecision": "exact",
+      "startTime": "08:30",
+      "endTime": "10:30",
+      "durationMin": 120,
+      "transportId": "trn_drive_hunter",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_tulloch": {
+      "id": "act_tulloch",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-04",
+      "order": 580,
+      "title": "Tulloch Wines - tasting",
+      "category": "activity",
+      "timePrecision": "exact",
+      "startTime": "10:45",
+      "endTime": "12:00",
+      "durationMin": 75,
+      "locationId": "loc_tulloch",
+      "bookingId": "bkg_the_wood",
+      "notes": "Book the Junior Tasting Experience for the little one at the same time as the adults' tasting - it is a grape-juice flight run alongside.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_brokenwood": {
+      "id": "act_brokenwood",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-04",
+      "order": 590,
+      "title": "Brokenwood - tasting",
+      "category": "activity",
+      "timePrecision": "exact",
+      "startTime": "12:15",
+      "endTime": "13:00",
+      "durationMin": 45,
+      "locationId": "loc_brokenwood",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_the_wood": {
+      "id": "act_the_wood",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-04",
+      "order": 600,
+      "title": "Lunch at The Wood",
+      "category": "food",
+      "timePrecision": "exact",
+      "startTime": "13:00",
+      "endTime": "14:15",
+      "durationMin": 75,
+      "locationId": "loc_brokenwood",
+      "bookingId": "bkg_the_wood",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_audrey": {
+      "id": "act_audrey",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-04",
+      "order": 610,
+      "title": "Audrey Wilkinson - views",
+      "category": "activity",
+      "timePrecision": "exact",
+      "startTime": "14:45",
+      "endTime": "15:45",
+      "durationMin": 60,
+      "locationId": "loc_audrey",
+      "notes": "The view down the valley from the terrace is the reason to come. Late light is best.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_tyrrells": {
+      "id": "act_tyrrells",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-04",
+      "order": 620,
+      "title": "Tyrrell's Wines",
+      "category": "activity",
+      "timePrecision": "exact",
+      "startTime": "16:00",
+      "endTime": "16:45",
+      "durationMin": 45,
+      "locationId": "loc_tyrrells",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_drive_hunter_back": {
+      "id": "act_drive_hunter_back",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-04",
+      "order": 630,
+      "title": "Drive back to Sydney",
+      "category": "driving",
+      "timePrecision": "exact",
+      "startTime": "17:00",
+      "endTime": "19:00",
+      "durationMin": 120,
+      "transportId": "trn_drive_hunter_back",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_art_gallery": {
+      "id": "act_art_gallery",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-05",
+      "order": 640,
+      "title": "Art Gallery of NSW",
+      "category": "museum",
+      "timePrecision": "exact",
+      "startTime": "10:00",
+      "endTime": "12:00",
+      "durationMin": 120,
+      "locationId": "loc_art_gallery",
+      "notes": "Free general entry. Naala Badu, the newer north building, holds the contemporary galleries and the Yiribana Gallery of Aboriginal and Torres Strait Islander art - that is the part worth the time.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_five_ways": {
+      "id": "act_five_ways",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-05",
+      "order": 650,
+      "title": "Paddington - Victorian terraces and Five Ways",
+      "category": "walking",
+      "timePrecision": "exact",
+      "startTime": "12:30",
+      "endTime": "13:30",
+      "durationMin": 60,
+      "locationId": "loc_five_ways",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_the_paddington": {
+      "id": "act_the_paddington",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-05",
+      "order": 660,
+      "title": "Lunch at The Paddington",
+      "category": "food",
+      "timePrecision": "exact",
+      "startTime": "13:45",
+      "endTime": "15:00",
+      "durationMin": 75,
+      "locationId": "loc_the_paddington",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_surry_hills_2": {
+      "id": "act_surry_hills_2",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-05",
+      "order": 670,
+      "title": "Surry Hills",
+      "category": "walking",
+      "timePrecision": "exact",
+      "startTime": "15:15",
+      "endTime": "16:30",
+      "durationMin": 75,
+      "locationId": "loc_surry_hills",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_paddys": {
+      "id": "act_paddys",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-05",
+      "order": 680,
+      "title": "Paddy's Markets - souvenirs",
+      "category": "shopping",
+      "timePrecision": "exact",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "durationMin": 60,
+      "locationId": "loc_paddys",
+      "notes": "Haymarket trades Wednesday to Sunday, so it is shut on this Monday - the checks panel flags it. Move it to Day 6 (Friday, before the Chinatown dinner) or Day 12 (Thursday afternoon).",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": true,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_train_katoomba": {
+      "id": "act_train_katoomba",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-06",
+      "order": 690,
+      "title": "Train - Central to Katoomba",
+      "category": "train",
+      "timePrecision": "exact",
+      "startTime": "07:20",
+      "endTime": "09:30",
+      "durationMin": 130,
+      "locationId": "loc_central",
+      "transportId": "trn_train_katoomba",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_bus_echo": {
+      "id": "act_bus_echo",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-06",
+      "order": 700,
+      "title": "Bus to Echo Point",
+      "category": "transport",
+      "timePrecision": "exact",
+      "startTime": "09:45",
+      "endTime": "10:15",
+      "durationMin": 30,
+      "transportId": "trn_bus_echo",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_echo_point": {
+      "id": "act_echo_point",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-06",
+      "order": 710,
+      "title": "Echo Point + Three Sisters",
+      "category": "nature",
+      "timePrecision": "exact",
+      "startTime": "10:30",
+      "endTime": "11:30",
+      "durationMin": 60,
+      "locationId": "loc_echo_point",
+      "notes": "Exposed and windy. This is where the jackets earn their place in the bag.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_scenic_world": {
+      "id": "act_scenic_world",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-06",
+      "order": 720,
+      "title": "Scenic World - Railway, Cableway, Skyway",
+      "category": "activity",
+      "timePrecision": "exact",
+      "startTime": "11:45",
+      "endTime": "14:15",
+      "durationMin": 150,
+      "locationId": "loc_scenic_world",
+      "bookingId": "bkg_scenic",
+      "notes": "The Railway is the steepest passenger railway in the world; the valley boardwalk links the two ends.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_scenic_lunch": {
+      "id": "act_scenic_lunch",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-06",
+      "order": 730,
+      "title": "Lunch at Scenic World",
+      "category": "food",
+      "timePrecision": "exact",
+      "startTime": "14:15",
+      "endTime": "15:00",
+      "durationMin": 45,
+      "locationId": "loc_scenic_world",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_cliff_walk": {
+      "id": "act_cliff_walk",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-06",
+      "order": 740,
+      "title": "Prince Henry Cliff Walk",
+      "category": "walking",
+      "timePrecision": "exact",
+      "startTime": "15:15",
+      "endTime": "16:15",
+      "durationMin": 60,
+      "locationId": "loc_echo_point",
+      "notes": "Scenic World back to Echo Point along the clifftop, about 45 minutes, pram-unfriendly in places.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": true,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_bus_katoomba": {
+      "id": "act_bus_katoomba",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-06",
+      "order": 750,
+      "title": "Bus to Katoomba Station",
+      "category": "transport",
+      "timePrecision": "exact",
+      "startTime": "16:30",
+      "endTime": "17:00",
+      "durationMin": 30,
+      "transportId": "trn_bus_katoomba",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_train_back": {
+      "id": "act_train_back",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-06",
+      "order": 760,
+      "title": "Train - Katoomba to Central",
+      "category": "train",
+      "timePrecision": "exact",
+      "startTime": "17:15",
+      "endTime": "19:25",
+      "durationMin": 130,
+      "locationId": "loc_katoomba",
+      "transportId": "trn_train_back",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_ferry_taronga": {
+      "id": "act_ferry_taronga",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-07",
+      "order": 770,
+      "title": "Ferry - Circular Quay to Taronga",
+      "category": "transport",
+      "timePrecision": "exact",
+      "startTime": "09:30",
+      "endTime": "09:45",
+      "durationMin": 15,
+      "locationId": "loc_circular_quay",
+      "transportId": "trn_ferry_taronga",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_sky_safari": {
+      "id": "act_sky_safari",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-07",
+      "order": 780,
+      "title": "Sky Safari cable car to the top gate",
+      "category": "activity",
+      "timePrecision": "exact",
+      "startTime": "10:00",
+      "endTime": "10:15",
+      "durationMin": 15,
+      "locationId": "loc_taronga_wharf",
+      "notes": "Included with entry. Ride up, then walk the zoo downhill back towards the wharf.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_taronga": {
+      "id": "act_taronga",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-07",
+      "order": 790,
+      "title": "Taronga Zoo",
+      "category": "nature",
+      "timePrecision": "exact",
+      "startTime": "10:30",
+      "endTime": "13:45",
+      "durationMin": 195,
+      "locationId": "loc_taronga",
+      "bookingId": "bkg_taronga",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_taronga_lunch": {
+      "id": "act_taronga_lunch",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-07",
+      "order": 800,
+      "title": "Lunch at the zoo",
+      "category": "food",
+      "timePrecision": "exact",
+      "startTime": "13:45",
+      "endTime": "14:30",
+      "durationMin": 45,
+      "locationId": "loc_taronga",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_to_balmoral": {
+      "id": "act_to_balmoral",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-07",
+      "order": 810,
+      "title": "Taronga to Balmoral",
+      "category": "transport",
+      "timePrecision": "exact",
+      "startTime": "15:00",
+      "endTime": "15:30",
+      "durationMin": 30,
+      "transportId": "trn_to_balmoral",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_balmoral": {
+      "id": "act_balmoral",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-07",
+      "order": 820,
+      "title": "Balmoral Beach",
+      "category": "beach",
+      "timePrecision": "exact",
+      "startTime": "15:45",
+      "endTime": "17:00",
+      "durationMin": 75,
+      "locationId": "loc_balmoral",
+      "notes": "Harbour beach with a netted swimming enclosure - flat water, no surf.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_balmoral_play": {
+      "id": "act_balmoral_play",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-07",
+      "order": 830,
+      "title": "Balmoral playground",
+      "category": "activity",
+      "timePrecision": "exact",
+      "startTime": "17:15",
+      "endTime": "18:00",
+      "durationMin": 45,
+      "locationId": "loc_balmoral_play",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_bathers": {
+      "id": "act_bathers",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-07",
+      "order": 840,
+      "title": "Dinner at The Bathers' Pavilion",
+      "category": "food",
+      "timePrecision": "exact",
+      "startTime": "18:15",
+      "endTime": "19:45",
+      "durationMin": 90,
+      "locationId": "loc_bathers",
+      "bookingId": "bkg_bathers",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_endeavour": {
+      "id": "act_endeavour",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-07",
+      "order": 850,
+      "title": "Endeavour Tap Rooms",
+      "category": "food",
+      "timePrecision": "relative",
+      "anchorNote": "Only if you go back through The Rocks",
+      "durationMin": 60,
+      "locationId": "loc_endeavour",
+      "notes": "It is in The Rocks, a long way back from Balmoral. Easy to skip.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": true,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_bridge_walk": {
+      "id": "act_bridge_walk",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-08",
+      "order": 860,
+      "title": "Walk across the Sydney Harbour Bridge",
+      "category": "walking",
+      "timePrecision": "exact",
+      "startTime": "09:30",
+      "endTime": "10:45",
+      "durationMin": 75,
+      "locationId": "loc_bridge_walk",
+      "notes": "Pedestrian path is the eastern side - stairs up from Cumberland St in The Rocks, or the Bridge Stairs at Milsons Point from the north. About 25 minutes each way at a walking pace.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_pylon": {
+      "id": "act_pylon",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-08",
+      "order": 870,
+      "title": "Pylon Lookout + Bridge Museum",
+      "category": "museum",
+      "timePrecision": "exact",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "durationMin": 60,
+      "locationId": "loc_pylon",
+      "notes": "200 steps to the top, no lift. Small entry fee, cash not needed.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_mca_lunch": {
+      "id": "act_mca_lunch",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-08",
+      "order": 880,
+      "title": "Lunch at the MCA Cafe",
+      "category": "food",
+      "timePrecision": "exact",
+      "startTime": "12:30",
+      "endTime": "13:45",
+      "durationMin": 75,
+      "locationId": "loc_mca",
+      "notes": "Level 4 terrace looks straight at the Opera House.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_mca": {
+      "id": "act_mca",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-08",
+      "order": 890,
+      "title": "Museum of Contemporary Art",
+      "category": "museum",
+      "timePrecision": "exact",
+      "startTime": "13:45",
+      "endTime": "15:00",
+      "durationMin": 75,
+      "locationId": "loc_mca",
+      "notes": "Free general entry.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_quay_free": {
+      "id": "act_quay_free",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-08",
+      "order": 900,
+      "title": "Circular Quay and the Opera House forecourt",
+      "category": "freeTime",
+      "timePrecision": "exact",
+      "startTime": "16:45",
+      "endTime": "18:00",
+      "durationMin": 75,
+      "locationId": "loc_circular_quay",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_opera_tour": {
+      "id": "act_opera_tour",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-08",
+      "order": 910,
+      "title": "Sydney Opera House tour",
+      "category": "culture",
+      "timePrecision": "exact",
+      "startTime": "15:30",
+      "endTime": "16:30",
+      "durationMin": 60,
+      "locationId": "loc_opera",
+      "bookingId": "bkg_opera",
+      "notes": "The interior was the gap in the original plan. A show would replace this if the calendar allows.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_claudia_birthday": {
+      "id": "act_claudia_birthday",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-08",
+      "order": 920,
+      "title": "Cláudia's birthday - harbour dinner cruise",
+      "category": "event",
+      "timePrecision": "exact",
+      "startTime": "19:00",
+      "endTime": "21:00",
+      "durationMin": 120,
+      "locationId": "loc_captain_cook",
+      "bookingId": "bkg_cruise",
+      "notes": "Bridge lit up from the water. Boarding is usually 20 minutes before departure.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_checkout": {
+      "id": "act_checkout",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-09",
+      "order": 930,
+      "title": "Check out, leave the bags with the hotel",
+      "category": "accommodation",
+      "timePrecision": "exact",
+      "startTime": "08:00",
+      "endTime": "08:30",
+      "durationMin": 30,
+      "accommodationId": "stay_sydney",
+      "notes": "Confirm the day before that they will hold luggage until the evening.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_bondi": {
+      "id": "act_bondi",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-09",
+      "order": 940,
+      "title": "Bondi Beach",
+      "category": "beach",
+      "timePrecision": "exact",
+      "startTime": "09:00",
+      "endTime": "10:45",
+      "durationMin": 105,
+      "locationId": "loc_bondi",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_bondi_walk": {
+      "id": "act_bondi_walk",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-09",
+      "order": 950,
+      "title": "Bondi to Tamarama section",
+      "category": "walking",
+      "timePrecision": "exact",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "durationMin": 60,
+      "locationId": "loc_bondi_walk",
+      "notes": "The prettiest stretch, about 25 minutes each way past the Icebergs. The full Bondi-Coogee walk is 6 km and too much on a departure day - it is in Ideas if you would rather trade something for it.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": true,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_newtown_lunch": {
+      "id": "act_newtown_lunch",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-09",
+      "order": 960,
+      "title": "Lunch in Newtown - King St",
+      "category": "food",
+      "timePrecision": "exact",
+      "startTime": "12:45",
+      "endTime": "14:00",
+      "durationMin": 75,
+      "locationId": "loc_newtown",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_newtown_art": {
+      "id": "act_newtown_art",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-09",
+      "order": 970,
+      "title": "Newtown street art",
+      "category": "culture",
+      "timePrecision": "exact",
+      "startTime": "14:00",
+      "endTime": "14:45",
+      "durationMin": 45,
+      "locationId": "loc_newtown",
+      "notes": "The I Have a Dream mural is on the wall by Newtown station; the lanes off King St have the rest.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_to_quay": {
+      "id": "act_to_quay",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-09",
+      "order": 980,
+      "title": "Newtown to Circular Quay",
+      "category": "transport",
+      "timePrecision": "exact",
+      "startTime": "15:00",
+      "endTime": "15:30",
+      "durationMin": 30,
+      "transportId": "trn_to_quay",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_ferry_watsons": {
+      "id": "act_ferry_watsons",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-09",
+      "order": 990,
+      "title": "Ferry to Watsons Bay",
+      "category": "transport",
+      "timePrecision": "exact",
+      "startTime": "15:45",
+      "endTime": "16:15",
+      "durationMin": 30,
+      "locationId": "loc_circular_quay",
+      "transportId": "trn_ferry_watsons",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_robertson": {
+      "id": "act_robertson",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-09",
+      "order": 1000,
+      "title": "Robertson Park",
+      "category": "nature",
+      "timePrecision": "exact",
+      "startTime": "16:30",
+      "endTime": "17:00",
+      "durationMin": 30,
+      "locationId": "loc_robertson",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_the_gap": {
+      "id": "act_the_gap",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-09",
+      "order": 1010,
+      "title": "The Gap + South Head",
+      "category": "nature",
+      "timePrecision": "exact",
+      "startTime": "17:15",
+      "endTime": "18:00",
+      "durationMin": 45,
+      "locationId": "loc_the_gap",
+      "notes": "Ocean cliffs on one side, harbour on the other. Hornby Lighthouse is 20 minutes further out.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_doyles": {
+      "id": "act_doyles",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-09",
+      "order": 1020,
+      "title": "Doyles - fish and chips by the water",
+      "category": "food",
+      "timePrecision": "exact",
+      "startTime": "18:15",
+      "endTime": "19:30",
+      "durationMin": 75,
+      "locationId": "loc_doyles",
+      "notes": "Sunset about 18:32 over the city skyline. The takeaway kiosk by the wharf is the cheaper version.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_ferry_back_final": {
+      "id": "act_ferry_back_final",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-09",
+      "order": 1030,
+      "title": "Ferry back to Circular Quay",
+      "category": "transport",
+      "timePrecision": "exact",
+      "startTime": "19:45",
+      "endTime": "20:15",
+      "durationMin": 30,
+      "locationId": "loc_watsons_wharf",
+      "transportId": "trn_ferry_back_final",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_bags": {
+      "id": "act_bags",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-09",
+      "order": 1040,
+      "title": "Collect the bags",
+      "category": "other",
+      "timePrecision": "relative",
+      "anchorNote": "Straight off the ferry",
+      "durationMin": 30,
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_transfer_out": {
+      "id": "act_transfer_out",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-09",
+      "order": 1050,
+      "title": "Transfer to Sydney Airport",
+      "category": "transport",
+      "timePrecision": "relative",
+      "anchorNote": "After the bags",
+      "durationMin": 45,
+      "locationId": "loc_syd",
+      "transportId": "trn_transfer_out",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "act_depart": {
+      "id": "act_depart",
+      "tripId": "trip_sydney_2026",
+      "dayId": "day_2026-10-09",
+      "order": 1060,
+      "title": "Departure flight",
+      "category": "flight",
+      "timePrecision": "dayPart",
+      "dayPart": "evening",
+      "durationMin": 120,
+      "locationId": "loc_syd",
+      "bookingId": "bkg_flights",
+      "transportId": "trn_depart",
+      "notes": "International check-in closes 60-90 minutes before departure. If this flight leaves before about 21:00, cut Watsons Bay and go straight to the airport after Newtown.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "idea_pebbly": {
+      "id": "idea_pebbly",
+      "tripId": "trip_sydney_2026",
+      "dayId": null,
+      "order": 1070,
+      "title": "Pebbly Beach - kangaroos on the sand",
+      "description": "Murramarang National Park, south coast. Wild eastern grey kangaroos on the beach.",
+      "category": "nature",
+      "timePrecision": "unscheduled",
+      "durationMin": 660,
+      "locationId": "loc_pebbly",
+      "notes": "About 275 km and three and a half hours each way - a whole day for one sight, and the least defensible of the three swaps. Only worth it if wild kangaroos in a natural setting are a priority; Featherdale already covers hand-feeding.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "idea_royal_np": {
+      "id": "idea_royal_np",
+      "tripId": "trip_sydney_2026",
+      "dayId": null,
+      "order": 1080,
+      "title": "Royal National Park day",
+      "description": "Audley, Wattamolla and the coast track. The second national park in the world.",
+      "category": "nature",
+      "timePrecision": "unscheduled",
+      "durationMin": 480,
+      "locationId": "loc_royal_np",
+      "notes": "About an hour each way. The best swap for Day 7 if you would rather have bush and coast than another set of neighbourhoods. Figure Eight Pools only at low tide and only in a small swell - check the NPWS safety page the morning of, people get hurt there.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "idea_northern_beaches": {
+      "id": "idea_northern_beaches",
+      "tripId": "trip_sydney_2026",
+      "dayId": null,
+      "order": 1090,
+      "title": "Palm Beach + Barrenjoey Lighthouse",
+      "description": "Palm Beach, the Barrenjoey headland, then Whale Beach and Avalon on the way back.",
+      "category": "beach",
+      "timePrecision": "unscheduled",
+      "durationMin": 480,
+      "locationId": "loc_palm_beach",
+      "notes": "The strongest of the three optional swaps and the intended replacement for Day 7. About 75 minutes by car, no train. The lighthouse track is 30-40 minutes up and steep - a carrier for the little one.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "idea_barrenjoey": {
+      "id": "idea_barrenjoey",
+      "tripId": "trip_sydney_2026",
+      "dayId": null,
+      "order": 1100,
+      "title": "Barrenjoey Lighthouse track",
+      "category": "walking",
+      "timePrecision": "unscheduled",
+      "durationMin": 120,
+      "locationId": "loc_barrenjoey",
+      "notes": "Part of the Northern Beaches day. Smugglers Track is steeper and shorter; Access Trail is easier.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "idea_spit_walk": {
+      "id": "idea_spit_walk",
+      "tripId": "trip_sydney_2026",
+      "dayId": null,
+      "order": 1110,
+      "title": "Manly to Spit Bridge walk",
+      "description": "10 km harbour walk through Dobroyd Head with Aboriginal engravings on the way.",
+      "category": "walking",
+      "timePrecision": "unscheduled",
+      "durationMin": 240,
+      "locationId": "loc_spit",
+      "notes": "Walk it Spit-to-Manly and finish with the ferry. Too long with a small child unless someone carries.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "idea_bondi_coogee": {
+      "id": "idea_bondi_coogee",
+      "tripId": "trip_sydney_2026",
+      "dayId": null,
+      "order": 1120,
+      "title": "Full Bondi to Coogee coastal walk",
+      "category": "walking",
+      "timePrecision": "unscheduled",
+      "durationMin": 180,
+      "locationId": "loc_coogee",
+      "notes": "6 km, two hours at a stroll, no shade. Day 13 has the Bondi-Tamarama section instead.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "idea_bridgeclimb": {
+      "id": "idea_bridgeclimb",
+      "tripId": "trip_sydney_2026",
+      "dayId": null,
+      "order": 1130,
+      "title": "BridgeClimb",
+      "category": "activity",
+      "timePrecision": "unscheduled",
+      "durationMin": 210,
+      "locationId": "loc_bridge_walk",
+      "notes": "The alternative to the Day 12 walk plus Pylon Lookout. Minimum age is 8 for the Sydney Climb, so check before booking. Dawn and twilight slots cost more and are worth it.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "idea_sydney_uni": {
+      "id": "idea_sydney_uni",
+      "tripId": "trip_sydney_2026",
+      "dayId": null,
+      "order": 1140,
+      "title": "University of Sydney Quadrangle",
+      "category": "culture",
+      "timePrecision": "unscheduled",
+      "durationMin": 45,
+      "locationId": "loc_sydney_uni",
+      "notes": "Ten minutes from Newtown or Glebe - easy to bolt onto either. Sandstone gothic, free to walk in.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "idea_o_bar": {
+      "id": "idea_o_bar",
+      "tripId": "trip_sydney_2026",
+      "dayId": null,
+      "order": 1150,
+      "title": "O Bar and Dining",
+      "category": "food",
+      "timePrecision": "unscheduled",
+      "durationMin": 150,
+      "locationId": "loc_o_bar",
+      "notes": "Birthday alternative. Revolving restaurant on level 47 - a full turn takes about 90 minutes.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "idea_infinity": {
+      "id": "idea_infinity",
+      "tripId": "trip_sydney_2026",
+      "dayId": null,
+      "order": 1160,
+      "title": "Infinity at Sydney Tower",
+      "category": "food",
+      "timePrecision": "unscheduled",
+      "durationMin": 150,
+      "locationId": "loc_sydney_tower",
+      "notes": "Birthday alternative, and it pairs with the Day 3 tower visit if you would rather double up.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "idea_bennelong": {
+      "id": "idea_bennelong",
+      "tripId": "trip_sydney_2026",
+      "dayId": null,
+      "order": 1170,
+      "title": "Bennelong at the Opera House",
+      "category": "food",
+      "timePrecision": "unscheduled",
+      "durationMin": 150,
+      "locationId": "loc_opera",
+      "notes": "Birthday alternative - inside the smaller shell. Books out furthest ahead of the three.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "idea_clearview": {
+      "id": "idea_clearview",
+      "tripId": "trip_sydney_2026",
+      "dayId": null,
+      "order": 1180,
+      "title": "Clearview glass boat cruise",
+      "category": "event",
+      "timePrecision": "unscheduled",
+      "durationMin": 150,
+      "locationId": "loc_captain_cook",
+      "notes": "Birthday alternative to the Captain Cook cruise - glass roof, so better on a clear night.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    },
+    "idea_opera_show": {
+      "id": "idea_opera_show",
+      "tripId": "trip_sydney_2026",
+      "dayId": null,
+      "order": 1190,
+      "title": "Performance at the Opera House",
+      "category": "event",
+      "timePrecision": "unscheduled",
+      "durationMin": 180,
+      "locationId": "loc_opera",
+      "notes": "Check the calendar for the trip dates. A family-friendly matinee or an early evening show would replace the Day 12 tour outright.",
+      "links": [],
+      "attachments": [],
+      "status": "planned",
+      "optional": false,
+      "createdAt": "2026-09-05T00:00:00.000Z",
+      "updatedAt": "2026-09-05T00:00:00.000Z"
+    }
+  },
+  "locations": {
+    "loc_syd": {
+      "id": "loc_syd",
+      "tripId": "trip_sydney_2026",
+      "name": "Sydney Airport (SYD)",
+      "lat": -33.9399,
+      "lng": 151.1753,
+      "address": "Mascot NSW 2020"
+    },
+    "loc_circular_quay": {
+      "id": "loc_circular_quay",
+      "tripId": "trip_sydney_2026",
+      "name": "Circular Quay",
+      "lat": -33.8614,
+      "lng": 151.2108
+    },
+    "loc_opera": {
+      "id": "loc_opera",
+      "tripId": "trip_sydney_2026",
+      "name": "Sydney Opera House",
+      "lat": -33.8568,
+      "lng": 151.2153,
+      "address": "Bennelong Point, Sydney NSW 2000",
+      "url": "https://www.sydneyoperahouse.com/",
+      "openingHours": {
+        "0": {
+          "open": "09:00",
+          "close": "17:00"
+        },
+        "1": {
+          "open": "09:00",
+          "close": "17:00"
+        },
+        "2": {
+          "open": "09:00",
+          "close": "17:00"
+        },
+        "3": {
+          "open": "09:00",
+          "close": "17:00"
+        },
+        "4": {
+          "open": "09:00",
+          "close": "17:00"
+        },
+        "5": {
+          "open": "09:00",
+          "close": "17:00"
+        },
+        "6": {
+          "open": "09:00",
+          "close": "17:00"
+        }
+      }
+    },
+    "loc_the_rocks": {
+      "id": "loc_the_rocks",
+      "tripId": "trip_sydney_2026",
+      "name": "The Rocks + Dawes Point",
+      "lat": -33.8577,
+      "lng": 151.2088
+    },
+    "loc_glenmore": {
+      "id": "loc_glenmore",
+      "tripId": "trip_sydney_2026",
+      "name": "The Glenmore Hotel",
+      "lat": -33.8592,
+      "lng": 151.2079,
+      "address": "96 Cumberland St, The Rocks"
+    },
+    "loc_hero": {
+      "id": "loc_hero",
+      "tripId": "trip_sydney_2026",
+      "name": "Hero of Waterloo",
+      "lat": -33.8586,
+      "lng": 151.2064,
+      "address": "81 Lower Fort St, Millers Point"
+    },
+    "loc_harts": {
+      "id": "loc_harts",
+      "tripId": "trip_sydney_2026",
+      "name": "Harts Pub",
+      "lat": -33.8607,
+      "lng": 151.2077,
+      "address": "Essex + Gloucester St, The Rocks"
+    },
+    "loc_endeavour": {
+      "id": "loc_endeavour",
+      "tripId": "trip_sydney_2026",
+      "name": "Endeavour Tap Rooms",
+      "lat": -33.8592,
+      "lng": 151.2076,
+      "address": "39-43 Argyle St, The Rocks"
+    },
+    "loc_mca": {
+      "id": "loc_mca",
+      "tripId": "trip_sydney_2026",
+      "name": "Museum of Contemporary Art",
+      "lat": -33.8599,
+      "lng": 151.2088,
+      "address": "140 George St, The Rocks",
+      "url": "https://www.mca.com.au/",
+      "openingHours": {
+        "0": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "1": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "2": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "3": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "4": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "5": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "6": {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      }
+    },
+    "loc_bridge_walk": {
+      "id": "loc_bridge_walk",
+      "tripId": "trip_sydney_2026",
+      "name": "Sydney Harbour Bridge walkway",
+      "lat": -33.8523,
+      "lng": 151.2108
+    },
+    "loc_pylon": {
+      "id": "loc_pylon",
+      "tripId": "trip_sydney_2026",
+      "name": "Pylon Lookout",
+      "lat": -33.8524,
+      "lng": 151.2114,
+      "address": "Southeast pylon, Sydney Harbour Bridge",
+      "url": "https://www.pylonlookout.com.au/",
+      "openingHours": {
+        "0": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "1": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "2": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "3": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "4": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "5": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "6": {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      }
+    },
+    "loc_captain_cook": {
+      "id": "loc_captain_cook",
+      "tripId": "trip_sydney_2026",
+      "name": "Captain Cook Cruises, Wharf 6",
+      "lat": -33.8613,
+      "lng": 151.2119,
+      "address": "Circular Quay Wharf 6"
+    },
+    "loc_aria": {
+      "id": "loc_aria",
+      "tripId": "trip_sydney_2026",
+      "name": "Aria Restaurant",
+      "lat": -33.8595,
+      "lng": 151.2118,
+      "address": "1 Macquarie St, Sydney"
+    },
+    "loc_sealife": {
+      "id": "loc_sealife",
+      "tripId": "trip_sydney_2026",
+      "name": "SEA LIFE Sydney Aquarium",
+      "lat": -33.8697,
+      "lng": 151.202,
+      "address": "1-5 Wheat Rd, Darling Harbour",
+      "openingHours": {
+        "0": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "1": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "2": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "3": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "4": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "5": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "6": {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      }
+    },
+    "loc_wildlife": {
+      "id": "loc_wildlife",
+      "tripId": "trip_sydney_2026",
+      "name": "WILD LIFE Sydney Zoo",
+      "lat": -33.8694,
+      "lng": 151.2013,
+      "address": "1-5 Wheat Rd, Darling Harbour",
+      "openingHours": {
+        "0": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "1": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "2": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "3": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "4": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "5": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "6": {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      }
+    },
+    "loc_fratelli": {
+      "id": "loc_fratelli",
+      "tripId": "trip_sydney_2026",
+      "name": "Cockle Bay Wharf",
+      "lat": -33.8712,
+      "lng": 151.2007,
+      "address": "Cockle Bay Wharf, Darling Harbour"
+    },
+    "loc_darling_quarter": {
+      "id": "loc_darling_quarter",
+      "tripId": "trip_sydney_2026",
+      "name": "Darling Quarter Playground",
+      "lat": -33.8742,
+      "lng": 151.2029
+    },
+    "loc_chinese_garden": {
+      "id": "loc_chinese_garden",
+      "tripId": "trip_sydney_2026",
+      "name": "Chinese Garden of Friendship",
+      "lat": -33.8767,
+      "lng": 151.2027,
+      "address": "Pier St, Darling Harbour",
+      "openingHours": {
+        "0": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "1": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "2": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "3": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "4": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "5": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "6": {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      }
+    },
+    "loc_barangaroo": {
+      "id": "loc_barangaroo",
+      "tripId": "trip_sydney_2026",
+      "name": "Barangaroo Reserve",
+      "lat": -33.8557,
+      "lng": 151.2013
+    },
+    "loc_zephyr": {
+      "id": "loc_zephyr",
+      "tripId": "trip_sydney_2026",
+      "name": "Zephyr Sky Bar, Hyatt Regency",
+      "lat": -33.8681,
+      "lng": 151.2013,
+      "address": "161 Sussex St, Sydney"
+    },
+    "loc_qvb": {
+      "id": "loc_qvb",
+      "tripId": "trip_sydney_2026",
+      "name": "Queen Victoria Building",
+      "lat": -33.8717,
+      "lng": 151.2069,
+      "address": "455 George St, Sydney",
+      "openingHours": {
+        "0": {
+          "open": "11:00",
+          "close": "17:00"
+        },
+        "1": {
+          "open": "09:00",
+          "close": "18:00"
+        },
+        "2": {
+          "open": "09:00",
+          "close": "18:00"
+        },
+        "3": {
+          "open": "09:00",
+          "close": "18:00"
+        },
+        "4": {
+          "open": "09:00",
+          "close": "21:00"
+        },
+        "5": {
+          "open": "09:00",
+          "close": "18:00"
+        },
+        "6": {
+          "open": "09:00",
+          "close": "18:00"
+        }
+      }
+    },
+    "loc_westfield": {
+      "id": "loc_westfield",
+      "tripId": "trip_sydney_2026",
+      "name": "Westfield Sydney",
+      "lat": -33.8704,
+      "lng": 151.2085,
+      "address": "188 Pitt St, Sydney",
+      "openingHours": {
+        "0": {
+          "open": "09:30",
+          "close": "19:00"
+        },
+        "1": {
+          "open": "09:30",
+          "close": "19:00"
+        },
+        "2": {
+          "open": "09:30",
+          "close": "19:00"
+        },
+        "3": {
+          "open": "09:30",
+          "close": "19:00"
+        },
+        "4": {
+          "open": "09:30",
+          "close": "19:00"
+        },
+        "5": {
+          "open": "09:30",
+          "close": "19:00"
+        },
+        "6": {
+          "open": "09:30",
+          "close": "19:00"
+        }
+      }
+    },
+    "loc_apple": {
+      "id": "loc_apple",
+      "tripId": "trip_sydney_2026",
+      "name": "Apple George St + JB Hi-Fi",
+      "lat": -33.8692,
+      "lng": 151.2072
+    },
+    "loc_grounds_city": {
+      "id": "loc_grounds_city",
+      "tripId": "trip_sydney_2026",
+      "name": "The Grounds of the City",
+      "lat": -33.8703,
+      "lng": 151.2062,
+      "address": "The Galeries, 500 George St"
+    },
+    "loc_sydney_tower": {
+      "id": "loc_sydney_tower",
+      "tripId": "trip_sydney_2026",
+      "name": "Sydney Tower Eye",
+      "lat": -33.8707,
+      "lng": 151.2089,
+      "address": "Level 5, Westfield Sydney, 108 Market St",
+      "openingHours": {
+        "0": {
+          "open": "10:00",
+          "close": "20:00"
+        },
+        "1": {
+          "open": "10:00",
+          "close": "20:00"
+        },
+        "2": {
+          "open": "10:00",
+          "close": "20:00"
+        },
+        "3": {
+          "open": "10:00",
+          "close": "20:00"
+        },
+        "4": {
+          "open": "10:00",
+          "close": "20:00"
+        },
+        "5": {
+          "open": "10:00",
+          "close": "20:00"
+        },
+        "6": {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      }
+    },
+    "loc_baxter": {
+      "id": "loc_baxter",
+      "tripId": "trip_sydney_2026",
+      "name": "The Baxter Inn",
+      "lat": -33.8683,
+      "lng": 151.2049,
+      "address": "Basement, 152-156 Clarence St"
+    },
+    "loc_chinatown": {
+      "id": "loc_chinatown",
+      "tripId": "trip_sydney_2026",
+      "name": "Chinatown, Dixon St",
+      "lat": -33.8785,
+      "lng": 151.2043
+    },
+    "loc_paddys": {
+      "id": "loc_paddys",
+      "tripId": "trip_sydney_2026",
+      "name": "Paddy's Markets Haymarket",
+      "lat": -33.8794,
+      "lng": 151.2029,
+      "address": "9-13 Hay St, Haymarket",
+      "openingHours": {
+        "0": {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        "1": null,
+        "2": null,
+        "3": {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        "4": {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        "5": {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        "6": {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      }
+    },
+    "loc_central": {
+      "id": "loc_central",
+      "tripId": "trip_sydney_2026",
+      "name": "Central Station",
+      "lat": -33.8832,
+      "lng": 151.2065
+    },
+    "loc_aus_museum": {
+      "id": "loc_aus_museum",
+      "tripId": "trip_sydney_2026",
+      "name": "Australian Museum",
+      "lat": -33.8746,
+      "lng": 151.213,
+      "address": "1 William St, Darlinghurst",
+      "url": "https://australian.museum/",
+      "openingHours": {
+        "0": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "1": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "2": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "3": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "4": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "5": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "6": {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      }
+    },
+    "loc_st_marys": {
+      "id": "loc_st_marys",
+      "tripId": "trip_sydney_2026",
+      "name": "St Mary's Cathedral",
+      "lat": -33.8712,
+      "lng": 151.2131,
+      "openingHours": {
+        "0": {
+          "open": "06:30",
+          "close": "18:30"
+        },
+        "1": {
+          "open": "06:30",
+          "close": "18:30"
+        },
+        "2": {
+          "open": "06:30",
+          "close": "18:30"
+        },
+        "3": {
+          "open": "06:30",
+          "close": "18:30"
+        },
+        "4": {
+          "open": "06:30",
+          "close": "18:30"
+        },
+        "5": {
+          "open": "06:30",
+          "close": "18:30"
+        },
+        "6": {
+          "open": "06:30",
+          "close": "18:30"
+        }
+      }
+    },
+    "loc_hyde_park": {
+      "id": "loc_hyde_park",
+      "tripId": "trip_sydney_2026",
+      "name": "Hyde Park",
+      "lat": -33.8735,
+      "lng": 151.211
+    },
+    "loc_hyde_playground": {
+      "id": "loc_hyde_playground",
+      "tripId": "trip_sydney_2026",
+      "name": "Hyde Park playground",
+      "lat": -33.8709,
+      "lng": 151.211,
+      "address": "North end, near St James"
+    },
+    "loc_botanic": {
+      "id": "loc_botanic",
+      "tripId": "trip_sydney_2026",
+      "name": "Royal Botanic Garden",
+      "lat": -33.8642,
+      "lng": 151.2166,
+      "openingHours": {
+        "0": {
+          "open": "07:00",
+          "close": "18:30"
+        },
+        "1": {
+          "open": "07:00",
+          "close": "18:30"
+        },
+        "2": {
+          "open": "07:00",
+          "close": "18:30"
+        },
+        "3": {
+          "open": "07:00",
+          "close": "18:30"
+        },
+        "4": {
+          "open": "07:00",
+          "close": "18:30"
+        },
+        "5": {
+          "open": "07:00",
+          "close": "18:30"
+        },
+        "6": {
+          "open": "07:00",
+          "close": "18:30"
+        }
+      }
+    },
+    "loc_mrs_macquarie": {
+      "id": "loc_mrs_macquarie",
+      "tripId": "trip_sydney_2026",
+      "name": "Mrs Macquarie's Chair",
+      "lat": -33.8599,
+      "lng": 151.2226
+    },
+    "loc_art_gallery": {
+      "id": "loc_art_gallery",
+      "tripId": "trip_sydney_2026",
+      "name": "Art Gallery of NSW",
+      "lat": -33.8688,
+      "lng": 151.217,
+      "address": "Art Gallery Rd, The Domain",
+      "url": "https://www.artgallery.nsw.gov.au/",
+      "openingHours": {
+        "0": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "1": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "2": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "3": {
+          "open": "10:00",
+          "close": "22:00"
+        },
+        "4": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "5": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "6": {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      }
+    },
+    "loc_manly_wharf": {
+      "id": "loc_manly_wharf",
+      "tripId": "trip_sydney_2026",
+      "name": "Manly Wharf",
+      "lat": -33.8003,
+      "lng": 151.2846
+    },
+    "loc_corso": {
+      "id": "loc_corso",
+      "tripId": "trip_sydney_2026",
+      "name": "The Corso",
+      "lat": -33.7975,
+      "lng": 151.2872
+    },
+    "loc_manly_beach": {
+      "id": "loc_manly_beach",
+      "tripId": "trip_sydney_2026",
+      "name": "Manly Beach",
+      "lat": -33.7969,
+      "lng": 151.288
+    },
+    "loc_wharf_bar": {
+      "id": "loc_wharf_bar",
+      "tripId": "trip_sydney_2026",
+      "name": "The Wharf Bar",
+      "lat": -33.8005,
+      "lng": 151.2843,
+      "address": "Manly Wharf"
+    },
+    "loc_shelly": {
+      "id": "loc_shelly",
+      "tripId": "trip_sydney_2026",
+      "name": "Shelly Beach",
+      "lat": -33.8,
+      "lng": 151.2946,
+      "address": "Cabbage Tree Bay Aquatic Reserve"
+    },
+    "loc_four_pines": {
+      "id": "loc_four_pines",
+      "tripId": "trip_sydney_2026",
+      "name": "4 Pines Brewing Co",
+      "lat": -33.8003,
+      "lng": 151.2841,
+      "address": "Manly Wharf"
+    },
+    "loc_dfo": {
+      "id": "loc_dfo",
+      "tripId": "trip_sydney_2026",
+      "name": "DFO Homebush",
+      "lat": -33.8452,
+      "lng": 151.0672,
+      "address": "3-5 Underwood Rd, Homebush",
+      "openingHours": {
+        "0": {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        "1": {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        "2": {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        "3": {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        "4": {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        "5": {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        "6": {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      }
+    },
+    "loc_featherdale": {
+      "id": "loc_featherdale",
+      "tripId": "trip_sydney_2026",
+      "name": "Featherdale Wildlife Park",
+      "lat": -33.7607,
+      "lng": 150.873,
+      "address": "217-229 Kildare Rd, Doonside",
+      "url": "https://www.featherdale.com.au/",
+      "openingHours": {
+        "0": {
+          "open": "09:00",
+          "close": "17:00"
+        },
+        "1": {
+          "open": "09:00",
+          "close": "17:00"
+        },
+        "2": {
+          "open": "09:00",
+          "close": "17:00"
+        },
+        "3": {
+          "open": "09:00",
+          "close": "17:00"
+        },
+        "4": {
+          "open": "09:00",
+          "close": "17:00"
+        },
+        "5": {
+          "open": "09:00",
+          "close": "17:00"
+        },
+        "6": {
+          "open": "09:00",
+          "close": "17:00"
+        }
+      }
+    },
+    "loc_centennial": {
+      "id": "loc_centennial",
+      "tripId": "trip_sydney_2026",
+      "name": "Centennial Parklands",
+      "lat": -33.8969,
+      "lng": 151.2337
+    },
+    "loc_wild_play": {
+      "id": "loc_wild_play",
+      "tripId": "trip_sydney_2026",
+      "name": "Ian Potter Children's WILD PLAY Garden",
+      "lat": -33.894,
+      "lng": 151.2313,
+      "openingHours": {
+        "0": {
+          "open": "09:00",
+          "close": "17:00"
+        },
+        "1": {
+          "open": "09:00",
+          "close": "17:00"
+        },
+        "2": {
+          "open": "09:00",
+          "close": "17:00"
+        },
+        "3": {
+          "open": "09:00",
+          "close": "17:00"
+        },
+        "4": {
+          "open": "09:00",
+          "close": "17:00"
+        },
+        "5": {
+          "open": "09:00",
+          "close": "17:00"
+        },
+        "6": {
+          "open": "09:00",
+          "close": "17:00"
+        }
+      }
+    },
+    "loc_homestead": {
+      "id": "loc_homestead",
+      "tripId": "trip_sydney_2026",
+      "name": "Centennial Park Homestead",
+      "lat": -33.8974,
+      "lng": 151.2325
+    },
+    "loc_paddington": {
+      "id": "loc_paddington",
+      "tripId": "trip_sydney_2026",
+      "name": "Paddington, Oxford St",
+      "lat": -33.8846,
+      "lng": 151.2266
+    },
+    "loc_five_ways": {
+      "id": "loc_five_ways",
+      "tripId": "trip_sydney_2026",
+      "name": "Five Ways, Paddington",
+      "lat": -33.8862,
+      "lng": 151.228
+    },
+    "loc_paddington_markets": {
+      "id": "loc_paddington_markets",
+      "tripId": "trip_sydney_2026",
+      "name": "Paddington Markets",
+      "lat": -33.8853,
+      "lng": 151.2287,
+      "address": "395 Oxford St, at St Johns",
+      "openingHours": {
+        "0": null,
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null,
+        "6": {
+          "open": "10:00",
+          "close": "16:00"
+        }
+      }
+    },
+    "loc_the_paddington": {
+      "id": "loc_the_paddington",
+      "tripId": "trip_sydney_2026",
+      "name": "The Paddington",
+      "lat": -33.885,
+      "lng": 151.228,
+      "address": "380 Oxford St, Paddington"
+    },
+    "loc_surry_hills": {
+      "id": "loc_surry_hills",
+      "tripId": "trip_sydney_2026",
+      "name": "Surry Hills, Crown St",
+      "lat": -33.885,
+      "lng": 151.213
+    },
+    "loc_newtown": {
+      "id": "loc_newtown",
+      "tripId": "trip_sydney_2026",
+      "name": "Newtown, King St",
+      "lat": -33.8963,
+      "lng": 151.1795
+    },
+    "loc_glebe": {
+      "id": "loc_glebe",
+      "tripId": "trip_sydney_2026",
+      "name": "Glebe Point Road",
+      "lat": -33.8798,
+      "lng": 151.1897
+    },
+    "loc_sydney_uni": {
+      "id": "loc_sydney_uni",
+      "tripId": "trip_sydney_2026",
+      "name": "University of Sydney Quadrangle",
+      "lat": -33.8886,
+      "lng": 151.1873
+    },
+    "loc_bondi": {
+      "id": "loc_bondi",
+      "tripId": "trip_sydney_2026",
+      "name": "Bondi Beach",
+      "lat": -33.8908,
+      "lng": 151.2743
+    },
+    "loc_bondi_walk": {
+      "id": "loc_bondi_walk",
+      "tripId": "trip_sydney_2026",
+      "name": "Bondi to Tamarama coastal walk",
+      "lat": -33.8945,
+      "lng": 151.279
+    },
+    "loc_coogee": {
+      "id": "loc_coogee",
+      "tripId": "trip_sydney_2026",
+      "name": "Coogee Beach",
+      "lat": -33.9205,
+      "lng": 151.257
+    },
+    "loc_watsons_wharf": {
+      "id": "loc_watsons_wharf",
+      "tripId": "trip_sydney_2026",
+      "name": "Watsons Bay Wharf",
+      "lat": -33.842,
+      "lng": 151.2818
+    },
+    "loc_robertson": {
+      "id": "loc_robertson",
+      "tripId": "trip_sydney_2026",
+      "name": "Robertson Park",
+      "lat": -33.8425,
+      "lng": 151.2807
+    },
+    "loc_the_gap": {
+      "id": "loc_the_gap",
+      "tripId": "trip_sydney_2026",
+      "name": "The Gap + South Head",
+      "lat": -33.844,
+      "lng": 151.285
+    },
+    "loc_doyles": {
+      "id": "loc_doyles",
+      "tripId": "trip_sydney_2026",
+      "name": "Doyles on the Beach",
+      "lat": -33.8419,
+      "lng": 151.281
+    },
+    "loc_taronga": {
+      "id": "loc_taronga",
+      "tripId": "trip_sydney_2026",
+      "name": "Taronga Zoo",
+      "lat": -33.8433,
+      "lng": 151.2413,
+      "address": "Bradleys Head Rd, Mosman",
+      "url": "https://www.taronga.org.au/sydney-zoo",
+      "openingHours": {
+        "0": {
+          "open": "09:30",
+          "close": "17:00"
+        },
+        "1": {
+          "open": "09:30",
+          "close": "17:00"
+        },
+        "2": {
+          "open": "09:30",
+          "close": "17:00"
+        },
+        "3": {
+          "open": "09:30",
+          "close": "17:00"
+        },
+        "4": {
+          "open": "09:30",
+          "close": "17:00"
+        },
+        "5": {
+          "open": "09:30",
+          "close": "17:00"
+        },
+        "6": {
+          "open": "09:30",
+          "close": "17:00"
+        }
+      }
+    },
+    "loc_taronga_wharf": {
+      "id": "loc_taronga_wharf",
+      "tripId": "trip_sydney_2026",
+      "name": "Taronga Zoo Wharf",
+      "lat": -33.8434,
+      "lng": 151.2412
+    },
+    "loc_balmoral": {
+      "id": "loc_balmoral",
+      "tripId": "trip_sydney_2026",
+      "name": "Balmoral Beach",
+      "lat": -33.8236,
+      "lng": 151.2515
+    },
+    "loc_balmoral_play": {
+      "id": "loc_balmoral_play",
+      "tripId": "trip_sydney_2026",
+      "name": "Balmoral playground",
+      "lat": -33.8244,
+      "lng": 151.2513
+    },
+    "loc_bathers": {
+      "id": "loc_bathers",
+      "tripId": "trip_sydney_2026",
+      "name": "The Bathers' Pavilion",
+      "lat": -33.8225,
+      "lng": 151.2519,
+      "address": "4 The Esplanade, Balmoral Beach"
+    },
+    "loc_tulloch": {
+      "id": "loc_tulloch",
+      "tripId": "trip_sydney_2026",
+      "name": "Tulloch Wines",
+      "lat": -32.781,
+      "lng": 151.3005,
+      "address": "Debeyers Rd, Pokolbin",
+      "url": "https://www.tulloch.com.au/",
+      "openingHours": {
+        "0": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "1": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "2": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "3": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "4": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "5": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "6": {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      }
+    },
+    "loc_brokenwood": {
+      "id": "loc_brokenwood",
+      "tripId": "trip_sydney_2026",
+      "name": "Brokenwood Wines + The Wood",
+      "lat": -32.7897,
+      "lng": 151.2977,
+      "address": "401-427 McDonalds Rd, Pokolbin",
+      "url": "https://www.brokenwood.com.au/",
+      "openingHours": {
+        "0": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "1": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "2": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "3": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "4": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "5": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "6": {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      }
+    },
+    "loc_audrey": {
+      "id": "loc_audrey",
+      "tripId": "trip_sydney_2026",
+      "name": "Audrey Wilkinson Vineyard",
+      "lat": -32.7745,
+      "lng": 151.276,
+      "address": "Debeyers Rd, Pokolbin",
+      "url": "https://www.audreywilkinson.com.au/",
+      "openingHours": {
+        "0": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "1": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "2": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "3": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "4": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "5": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "6": {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      }
+    },
+    "loc_tyrrells": {
+      "id": "loc_tyrrells",
+      "tripId": "trip_sydney_2026",
+      "name": "Tyrrell's Wines",
+      "lat": -32.7622,
+      "lng": 151.2951,
+      "address": "Broke Rd, Pokolbin",
+      "url": "https://www.tyrrells.com.au/",
+      "openingHours": {
+        "0": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "1": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "2": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "3": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "4": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "5": {
+          "open": "10:00",
+          "close": "17:00"
+        },
+        "6": {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      }
+    },
+    "loc_katoomba": {
+      "id": "loc_katoomba",
+      "tripId": "trip_sydney_2026",
+      "name": "Katoomba Station",
+      "lat": -33.714,
+      "lng": 150.311
+    },
+    "loc_echo_point": {
+      "id": "loc_echo_point",
+      "tripId": "trip_sydney_2026",
+      "name": "Echo Point + Three Sisters",
+      "lat": -33.7325,
+      "lng": 150.3122
+    },
+    "loc_scenic_world": {
+      "id": "loc_scenic_world",
+      "tripId": "trip_sydney_2026",
+      "name": "Scenic World",
+      "lat": -33.7276,
+      "lng": 150.3005,
+      "address": "Violet St + Cliff Dr, Katoomba",
+      "url": "https://www.scenicworld.com.au/",
+      "openingHours": {
+        "0": {
+          "open": "09:00",
+          "close": "17:00"
+        },
+        "1": {
+          "open": "09:00",
+          "close": "17:00"
+        },
+        "2": {
+          "open": "09:00",
+          "close": "17:00"
+        },
+        "3": {
+          "open": "09:00",
+          "close": "17:00"
+        },
+        "4": {
+          "open": "09:00",
+          "close": "17:00"
+        },
+        "5": {
+          "open": "09:00",
+          "close": "17:00"
+        },
+        "6": {
+          "open": "09:00",
+          "close": "17:00"
+        }
+      }
+    },
+    "loc_pebbly": {
+      "id": "loc_pebbly",
+      "tripId": "trip_sydney_2026",
+      "name": "Pebbly Beach, Murramarang NP",
+      "lat": -35.63,
+      "lng": 150.32
+    },
+    "loc_royal_np": {
+      "id": "loc_royal_np",
+      "tripId": "trip_sydney_2026",
+      "name": "Royal National Park, Wattamolla",
+      "lat": -34.137,
+      "lng": 151.113
+    },
+    "loc_palm_beach": {
+      "id": "loc_palm_beach",
+      "tripId": "trip_sydney_2026",
+      "name": "Palm Beach",
+      "lat": -33.598,
+      "lng": 151.323
+    },
+    "loc_barrenjoey": {
+      "id": "loc_barrenjoey",
+      "tripId": "trip_sydney_2026",
+      "name": "Barrenjoey Lighthouse",
+      "lat": -33.5797,
+      "lng": 151.3283
+    },
+    "loc_spit": {
+      "id": "loc_spit",
+      "tripId": "trip_sydney_2026",
+      "name": "Spit Bridge",
+      "lat": -33.8047,
+      "lng": 151.2469
+    },
+    "loc_o_bar": {
+      "id": "loc_o_bar",
+      "tripId": "trip_sydney_2026",
+      "name": "O Bar and Dining",
+      "lat": -33.8646,
+      "lng": 151.2074,
+      "address": "Level 47, Australia Square, 264 George St"
+    }
+  },
+  "accommodations": {
+    "stay_sydney": {
+      "id": "stay_sydney",
+      "tripId": "trip_sydney_2026",
+      "name": "Sydney base - to be confirmed",
+      "checkInDate": "2026-09-27",
+      "checkInTime": "15:00",
+      "checkOutDate": "2026-10-09",
+      "checkOutTime": "11:00",
+      "bookingId": "bkg_stay",
+      "currency": "AUD",
+      "notes": "Placeholder so the nightly accommodation check passes. Replace the name, address, phone and booking reference once it is confirmed - no coordinates yet, so nothing is pinned on the map."
+    }
+  },
+  "transports": {
+    "trn_arrive": {
+      "id": "trn_arrive",
+      "tripId": "trip_sydney_2026",
+      "mode": "flight",
+      "fromLabel": "Home",
+      "toLabel": "Sydney (SYD)",
+      "notes": "Fill in carrier, flight number and landing time - the rest of Day 1 hangs off it."
+    },
+    "trn_transfer_in": {
+      "id": "trn_transfer_in",
+      "tripId": "trip_sydney_2026",
+      "mode": "publicTransport",
+      "fromLabel": "Sydney Airport (SYD)",
+      "toLabel": "Accommodation",
+      "notes": "Airport Link train is 13 minutes to the CBD but adds a station access fee of about $17 per adult; with luggage and a child a maxi taxi or rideshare often works out similar."
+    },
+    "trn_ferry_manly_out": {
+      "id": "trn_ferry_manly_out",
+      "tripId": "trip_sydney_2026",
+      "mode": "ferry",
+      "fromLabel": "Circular Quay",
+      "toLabel": "Manly Wharf",
+      "platform": "Wharf 3",
+      "notes": "F1 Manly, about 30 minutes. Opal or contactless - tap on and off."
+    },
+    "trn_ferry_manly_back": {
+      "id": "trn_ferry_manly_back",
+      "tripId": "trip_sydney_2026",
+      "mode": "ferry",
+      "fromLabel": "Manly Wharf",
+      "toLabel": "Circular Quay",
+      "notes": "Golden hour on the way back if you catch this one."
+    },
+    "trn_drive_dfo": {
+      "id": "trn_drive_dfo",
+      "tripId": "trip_sydney_2026",
+      "mode": "car",
+      "fromLabel": "City",
+      "toLabel": "DFO Homebush",
+      "notes": "About 20 km west. Paid parking on site."
+    },
+    "trn_drive_featherdale": {
+      "id": "trn_drive_featherdale",
+      "tripId": "trip_sydney_2026",
+      "mode": "car",
+      "fromLabel": "DFO Homebush",
+      "toLabel": "Featherdale, Doonside",
+      "notes": "About 25 km further west."
+    },
+    "trn_drive_back": {
+      "id": "trn_drive_back",
+      "tripId": "trip_sydney_2026",
+      "mode": "car",
+      "fromLabel": "Doonside",
+      "toLabel": "City",
+      "notes": "Friday afternoon on the M4 - allow more than the map says."
+    },
+    "trn_drive_hunter": {
+      "id": "trn_drive_hunter",
+      "tripId": "trip_sydney_2026",
+      "mode": "car",
+      "fromLabel": "Sydney",
+      "toLabel": "Pokolbin, Hunter Valley",
+      "notes": "About 160 km, two hours via the M1. Clocks went forward at 02:00 - leave earlier than it feels."
+    },
+    "trn_drive_hunter_back": {
+      "id": "trn_drive_hunter_back",
+      "tripId": "trip_sydney_2026",
+      "mode": "car",
+      "fromLabel": "Pokolbin",
+      "toLabel": "Sydney",
+      "notes": "Two hours. Whoever drove out should not be the one tasting."
+    },
+    "trn_train_katoomba": {
+      "id": "trn_train_katoomba",
+      "tripId": "trip_sydney_2026",
+      "mode": "train",
+      "fromLabel": "Central",
+      "toLabel": "Katoomba",
+      "notes": "Blue Mountains line, about two hours. Check the timetable the night before - services are hourly."
+    },
+    "trn_bus_echo": {
+      "id": "trn_bus_echo",
+      "tripId": "trip_sydney_2026",
+      "mode": "bus",
+      "fromLabel": "Katoomba Station",
+      "toLabel": "Echo Point",
+      "notes": "The 686 local bus, or the hop-on Explorer Bus if you want Scenic World on the same ticket."
+    },
+    "trn_bus_katoomba": {
+      "id": "trn_bus_katoomba",
+      "tripId": "trip_sydney_2026",
+      "mode": "bus",
+      "fromLabel": "Echo Point",
+      "toLabel": "Katoomba Station"
+    },
+    "trn_train_back": {
+      "id": "trn_train_back",
+      "tripId": "trip_sydney_2026",
+      "mode": "train",
+      "fromLabel": "Katoomba",
+      "toLabel": "Central"
+    },
+    "trn_ferry_taronga": {
+      "id": "trn_ferry_taronga",
+      "tripId": "trip_sydney_2026",
+      "mode": "ferry",
+      "fromLabel": "Circular Quay",
+      "toLabel": "Taronga Zoo Wharf",
+      "notes": "About 12 minutes. Zoo-and-ferry combo tickets exist - compare before buying entry separately."
+    },
+    "trn_to_balmoral": {
+      "id": "trn_to_balmoral",
+      "tripId": "trip_sydney_2026",
+      "mode": "bus",
+      "fromLabel": "Taronga Zoo",
+      "toLabel": "Balmoral Beach",
+      "notes": "The 238 from Bradleys Head Rd, or a short taxi - about 4 km."
+    },
+    "trn_to_quay": {
+      "id": "trn_to_quay",
+      "tripId": "trip_sydney_2026",
+      "mode": "train",
+      "fromLabel": "Newtown",
+      "toLabel": "Circular Quay"
+    },
+    "trn_ferry_watsons": {
+      "id": "trn_ferry_watsons",
+      "tripId": "trip_sydney_2026",
+      "mode": "ferry",
+      "fromLabel": "Circular Quay",
+      "toLabel": "Watsons Bay",
+      "notes": "About 25 minutes. Check the last return service before you board - they thin out in the evening."
+    },
+    "trn_ferry_back_final": {
+      "id": "trn_ferry_back_final",
+      "tripId": "trip_sydney_2026",
+      "mode": "ferry",
+      "fromLabel": "Watsons Bay",
+      "toLabel": "Circular Quay"
+    },
+    "trn_transfer_out": {
+      "id": "trn_transfer_out",
+      "tripId": "trip_sydney_2026",
+      "mode": "car",
+      "fromLabel": "City",
+      "toLabel": "Sydney Airport (SYD)",
+      "notes": "30-45 minutes depending on traffic. Pre-book a maxi taxi if there are more than four of you."
+    },
+    "trn_depart": {
+      "id": "trn_depart",
+      "tripId": "trip_sydney_2026",
+      "mode": "flight",
+      "fromLabel": "Sydney (SYD)",
+      "toLabel": "Home",
+      "notes": "Fill in the real flight number and time - the whole shape of Day 13 depends on it."
+    }
+  },
+  "bookings": {
+    "bkg_stay": {
+      "id": "bkg_stay",
+      "tripId": "trip_sydney_2026",
+      "provider": "To be decided",
+      "status": "pending",
+      "notes": "Accommodation is not booked yet. Somewhere near Circular Quay, Darling Harbour or Surry Hills keeps most of this itinerary walkable; the Blue Mountains and Hunter days both start from Central or a car park.",
+      "currency": "AUD"
+    },
+    "bkg_flights": {
+      "id": "bkg_flights",
+      "tripId": "trip_sydney_2026",
+      "provider": "To be added",
+      "status": "pending",
+      "notes": "Add both flight numbers and the real times.",
+      "currency": "AUD"
+    },
+    "bkg_merlin": {
+      "id": "bkg_merlin",
+      "tripId": "trip_sydney_2026",
+      "provider": "Merlin Entertainments",
+      "status": "pending",
+      "notes": "One multi-attraction pass covers SEA LIFE, WILD LIFE and the Sydney Tower Eye (Day 3). Book online for timed entry - this is the middle of the NSW school holidays.",
+      "currency": "AUD"
+    },
+    "bkg_aria": {
+      "id": "bkg_aria",
+      "tripId": "trip_sydney_2026",
+      "provider": "Aria Restaurant",
+      "status": "pending",
+      "notes": "Not booked. Fine dining over the Opera House - book weeks ahead and confirm the policy on children. O Bar, Infinity and Bennelong are in Ideas as alternatives.",
+      "currency": "AUD"
+    },
+    "bkg_featherdale": {
+      "id": "bkg_featherdale",
+      "tripId": "trip_sydney_2026",
+      "provider": "Featherdale Wildlife Park",
+      "status": "pending",
+      "notes": "Not booked. Online tickets only in peak periods; koala photo sessions run to a timetable.",
+      "currency": "AUD"
+    },
+    "bkg_the_wood": {
+      "id": "bkg_the_wood",
+      "tripId": "trip_sydney_2026",
+      "provider": "The Wood at Brokenwood",
+      "status": "pending",
+      "notes": "Not booked. Sunday lunch in the valley books out weeks ahead - reserve this before anything else on this day. Book the cellar-door tastings at the same time.",
+      "currency": "AUD"
+    },
+    "bkg_scenic": {
+      "id": "bkg_scenic",
+      "tripId": "trip_sydney_2026",
+      "provider": "Scenic World",
+      "status": "pending",
+      "notes": "Not booked. Timed online tickets are cheaper and skip the queue. The Skyway closes in high wind - they publish conditions each morning.",
+      "currency": "AUD"
+    },
+    "bkg_taronga": {
+      "id": "bkg_taronga",
+      "tripId": "trip_sydney_2026",
+      "provider": "Taronga Zoo Sydney",
+      "status": "pending",
+      "notes": "Not booked. Online tickets are dated. Keeper talks and the seal show run to a published timetable - plan the morning around one or two of them.",
+      "currency": "AUD"
+    },
+    "bkg_bathers": {
+      "id": "bkg_bathers",
+      "tripId": "trip_sydney_2026",
+      "provider": "The Bathers' Pavilion",
+      "status": "pending",
+      "notes": "Not booked. There is a formal restaurant and a more relaxed cafe next door - the cafe is the one that works with a child at this hour.",
+      "currency": "AUD"
+    },
+    "bkg_opera": {
+      "id": "bkg_opera",
+      "tripId": "trip_sydney_2026",
+      "provider": "Sydney Opera House",
+      "status": "pending",
+      "notes": "Not booked. The one-hour building tour runs through the day. If something family-friendly is on in the Concert Hall that evening, a performance is the better birthday version - check the calendar first.",
+      "currency": "AUD"
+    },
+    "bkg_cruise": {
+      "id": "bkg_cruise",
+      "tripId": "trip_sydney_2026",
+      "provider": "Captain Cook Cruises",
+      "status": "pending",
+      "notes": "Not booked. Alternatives in Ideas: the Clearview glass boat, Bennelong at the Opera House, or an Opera House performance. Whichever it is, book early - peak school-holiday week.",
+      "currency": "AUD"
+    }
+  }
+}

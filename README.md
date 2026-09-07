@@ -171,6 +171,72 @@ quick-add, `M`/`I` panels, `1`–`6` views, `Esc` closes the inspector.
 
 ---
 
+## Deployment and the shared plan
+
+The site is published to GitHub Pages from `main`:
+
+**<https://nic4wtf.github.io/atlas-trip-planner/>**
+
+It works on a desktop browser and on a phone, and can be installed to the home
+screen on both (it ships a web app manifest and a service worker, so it opens
+full-screen and runs offline once loaded).
+
+### One plan, proposed changes, one gate
+
+The itinerary is a file in the repository — `public/trips/sydney-2026.json` —
+and the deployed site serves it. That makes the plan versioned, and it makes
+"who is allowed to change it" a question GitHub already answers.
+
+```
+your device                   repository                    everyone
+───────────                   ──────────                    ────────
+edit freely, locally
+  │
+  │ Settings → Propose changes
+  ▼
+sydney-2026.json ──upload──►  pull request
+                                  │  checks run automatically
+                                  │  owner reviews the diff
+                                  ▼
+                              merged to main ──deploy──►  new published plan
+                                                              │
+                                                          "update available"
+```
+
+- **Local-first is unchanged.** Edits go to IndexedDB and need no network. The
+  published file is only read: on first run to seed the trip, and afterwards to
+  answer "has this moved on?".
+- **Proposals need no account setup** beyond a GitHub login — no token, no OAuth
+  app, no backend. GitHub forks the repo for a contributor automatically.
+- **`main` is protected**, so a proposal is only published once it is merged.
+- **Every proposal is checked first.** `npm test` guards the trip file itself —
+  malformed JSON, dangling references, days outside the trip's range — so a
+  broken plan fails before it reaches review.
+
+The full walkthrough is in [CONTRIBUTING.md](CONTRIBUTING.md).
+
+### Verifying a deploy locally
+
+GitHub Pages serves a project site from a subpath (`/atlas-trip-planner/`),
+which is where relative-path bugs surface. This serves the real build that way
+and drives it in a browser, desktop and phone-sized:
+
+```bash
+npm run pages:check
+```
+
+### Why Pages
+
+`base: './'` already made the build path-relative for Electron and Capacitor, so
+subpath hosting needed no change, and `HashRouter` means there is no SPA 404
+problem to solve. Version control and the approval gate are the product's own
+requirements met by the host, rather than a service to run. The trade-off is
+that Pages on a free account serves from a **public** repository — the itinerary
+is world-readable. Hosting the same build on Cloudflare Pages or Netlify from a
+private repo is the swap if that matters; nothing above depends on the host.
+
+---
+
 ## Configuration
 
 No secrets are committed. Maps default to OpenStreetMap, which needs no key. To
@@ -199,9 +265,11 @@ VITE_MAP_ATTRIBUTION=© MapTiler © OpenStreetMap contributors
   would go.
 - **Attachments are modelled but not uploadable.** The `Attachment` type exists
   and links work; file storage does not.
-- **No sync or collaboration.** Everything is per-device. The normalised store
-  with per-entity records and timestamps is the shape a sync layer would want,
-  but none is implemented.
+- **Collaboration is asynchronous, not live.** Changes are proposed as pull
+  requests and land when they are merged; there is no realtime sync and no
+  merging of two people's concurrent edits. Adopting the published plan replaces
+  the local copy wholesale rather than reconciling it. The normalised store with
+  per-entity records and timestamps is the shape a real sync layer would want.
 - **Native projects are not committed.** `npx cap add android|ios` needs the
   platform SDKs, so they are generated locally rather than checked in.
 - **The tests that touch the DOM run through a real browser** (`npm run smoke`)

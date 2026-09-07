@@ -1,0 +1,28 @@
+# The gate a proposed change has to pass before it can be accepted.
+#
+# Most proposals are an edited trip file rather than code, so the test suite
+# includes a guard on `public/trips/*.json` — bad JSON, a dangling reference or
+# a day outside the trip's date range fails here, before anyone reviews it.
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build

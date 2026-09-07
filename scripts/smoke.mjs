@@ -85,6 +85,38 @@ async function dragTo(page, fromSelector, toSelector) {
   )
 }
 
+/**
+ * Put the app on the demo trip via Settings → Reset to demo trip.
+ *
+ * The app seeds itself from the published itinerary, which is data that can
+ * change; the demo is a fixed fixture, so the assertions below pin to it.
+ */
+async function resetToDemo(page, base) {
+  const tripId = await currentTripId(page)
+  await page.goto(`${base}/#/trip/${tripId}/settings`, { waitUntil: 'networkidle2' })
+  await page.waitForSelector('.btn--danger')
+  const clickByText = (text) =>
+    page.evaluate((t) => {
+      const button = [...document.querySelectorAll('button')].find((b) =>
+        b.textContent?.trim().includes(t),
+      )
+      if (!button) throw new Error(`no button labelled ${t}`)
+      button.click()
+    }, text)
+  await clickByText('Reset to demo trip')
+  await page.waitForSelector('.modal')
+  await clickByText('Reset everything')
+  await page.waitForFunction(
+    () => !document.querySelector('.modal'),
+    { timeout: 15000 },
+  )
+  await page.goto(base, { waitUntil: 'networkidle2' })
+  await page.waitForFunction(
+    () => document.querySelector('.hero__name')?.value === 'Japan 2027',
+    { timeout: 15000 },
+  )
+}
+
 async function main() {
   if (!CHROME) {
     console.error('No Chrome/Edge found; skipping browser smoke test.')
@@ -120,7 +152,17 @@ async function main() {
     await page.goto(base, { waitUntil: 'networkidle2' })
     await page.waitForSelector('.hero__name', { timeout: 15000 })
 
-    await check('demo trip loads on first launch', async () => {
+    await check('a trip loads on first launch', async () => {
+      const name = await page.$eval('.hero__name', (el) => el.value)
+      assert(name.length > 0, 'no trip seeded')
+    })
+
+    // Everything below asserts against the demo trip's exact shape, so pin it
+    // through the real affordance rather than depending on whichever itinerary
+    // happens to be published.
+    await resetToDemo(page, base)
+
+    await check('the demo trip is the fixture', async () => {
       const name = await page.$eval('.hero__name', (el) => el.value)
       assert(name === 'Japan 2027', `expected the demo trip, got ${name}`)
     })
