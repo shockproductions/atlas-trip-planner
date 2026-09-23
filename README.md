@@ -175,7 +175,7 @@ quick-add, `M`/`I` panels, `1`–`6` views, `Esc` closes the inspector.
 
 The site is published to GitHub Pages from `main`:
 
-**<https://nic4wtf.github.io/atlas-trip-planner/>**
+**<https://shockproductions.github.io/atlas-trip-planner/>**
 
 It works on a desktop browser and on a phone, and can be installed to the home
 screen on both (it ships a web app manifest and a service worker, so it opens

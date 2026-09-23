@@ -14,7 +14,7 @@ import type { TripData } from '@/domain/types'
 import { COLLECTIONS } from '@/domain/types'
 
 /** `owner/repo`, overridable so a fork can point the propose flow at itself. */
-export const REPO = import.meta.env.VITE_REPO ?? 'nic4wtf/atlas-trip-planner'
+export const REPO = import.meta.env.VITE_REPO ?? 'shockproductions/atlas-trip-planner'
 /** The branch proposals target. */
 export const BRANCH = import.meta.env.VITE_REPO_BRANCH ?? 'main'
 /** Path of the canonical trip inside the repository. */

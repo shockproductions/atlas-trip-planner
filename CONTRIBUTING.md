@@ -49,7 +49,7 @@ Export first (**Settings → Data → Export JSON**) if you are unsure.
 
 ## For the owner
 
-- Proposals arrive at <https://github.com/nic4wtf/atlas-trip-planner/pulls>.
+- Proposals arrive at <https://github.com/shockproductions/atlas-trip-planner/pulls>.
 - `main` is protected: changes land through a pull request, so nothing reaches
   the published plan without you merging it.
 - Merging triggers the deploy. Watch it under **Actions**.
